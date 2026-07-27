@@ -379,7 +379,7 @@
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
         <div class="sidebar-brand">
-            <img src="{{ asset('assets/img/logo.png') }}" alt="logo" width="">
+            <img src="{{ asset('logo.png') }}" alt="logo" width="">
         </div>
         
         <div class="sidebar-nav">

@@ -171,7 +171,7 @@
             </div>
             <div class="visual-mid">
                 <h2>Trade with confidence, anywhere in the world.</h2>
-                <p>Access global markets, real-time analytics and secure funding — all from one powerful dashboard.</p>
+                <p>Access global markets, real-time analytics and secure funding all from one powerful dashboard.</p>
                 <ul class="feature-list">
                     <li><i class="fas fa-shield-alt"></i> Bank-grade security &amp; encryption</li>
                     <li><i class="fas fa-bolt"></i> Instant deposits &amp; withdrawals</li>

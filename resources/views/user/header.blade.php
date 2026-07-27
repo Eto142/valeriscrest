@@ -272,21 +272,21 @@
                                 </a>
                             </li>
 
-                             <li>
+                             {{-- <li>
                                 <a href="{{route('user.wallet')}}">
                                    <i class="bi bi-wallet2"></i>
                                     <span data-key="t-chat">Wallet</span>
                                 </a>
-                            </li>
+                            </li> --}}
 
             
 
-                            <li>
+                            {{-- <li>
                                 <a href="{{route('user.copy')}}">
                                    <i class="bi bi-person-lines-fill"></i>
                                     <span data-key="t-calendar">Copy trade</span>
                                 </a>
-                            </li>
+                            </li> --}}
                 
 
                             

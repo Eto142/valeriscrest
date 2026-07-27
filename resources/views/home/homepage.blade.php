@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row align-items-center gy-5 slider-content">
                     <div class="col-lg-6">
-                        <div class="live-badge"><span class="live-dot"></span> Markets Live Now</div>
+                        {{-- <div class="live-badge"><span class="live-dot"></span> Markets Live Now</div> --}}
                         <h1 class="slide-h1">Precision Trading.<br><span class="gradient-text">Expert Results.</span></h1>
                         <p class="slide-subtitle">Our team of seasoned market professionals manage your portfolio with disciplined strategies, rigorous analysis, and a proven track record across global markets.</p>
                         <div class="hero-btns">
@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="row align-items-center gy-5 slider-content">
                     <div class="col-lg-6">
-                        <div class="live-badge"><span class="live-dot"></span> Analysts Active</div>
+                        {{-- <div class="live-badge"><span class="live-dot"></span> Analysts Active</div> --}}
                         <h1 class="slide-h1">Multi-Asset<br><span class="gradient-text">Investment Platform</span></h1>
                         <p class="slide-subtitle">Trade cryptocurrencies, indices, and forex backed by expert analysts who monitor global markets around the clock to keep your portfolio performing.</p>
                         <div class="hero-btns">
@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="row align-items-center gy-5 slider-content">
                     <div class="col-lg-6">
-                        <div class="live-badge"><span class="live-dot"></span> Zero Hidden Fees</div>
+                        {{-- <div class="live-badge"><span class="live-dot"></span> Zero Hidden Fees</div> --}}
                         <h1 class="slide-h1">Smart Investing.<br><span class="gradient-text">Minimal Costs.</span></h1>
                         <p class="slide-subtitle">Experience transparent low fees, instant execution, and professional trade selection built to deliver the best market entries for your portfolio.</p>
                         <div class="hero-btns">
@@ -291,7 +291,7 @@
                     <p class="mb-4" style="color:var(--text-muted);font-size:1rem;line-height:1.75;">The fastest trading experience built on modern technology — zero delays, pixel-perfect quotes, and a platform engineered for serious investors. Valeris Crest support is available 24/7.</p>
                     <ul class="features-list">
                         <li>4 chart types, 8 indicators &amp; precision trend-line tools</li>
-                        <li>Copy trading — follow top performers or publish your own strategy</li>
+                        {{-- <li>Copy trading — follow top performers or publish your own strategy</li> --}}
                         <li>100+ assets: crypto, stocks, forex &amp; commodities</li>
                         <li>Advanced order types with built-in risk management controls</li>
                     </ul>
