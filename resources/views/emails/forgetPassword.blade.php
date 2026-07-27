@@ -74,7 +74,7 @@
 
                                         <p style="margin:28px 0 0; color:#374151; font-size:14px;">
                                             Warm regards,<br>
-                                            <strong>SwiftMetaTrd Support Team</strong>
+                                            <strong>valeriscrest Support Team</strong>
                                         </p>
                                     </td>
                                 </tr>
@@ -91,7 +91,7 @@
                                 If you did not make this request, please disregard this email.
                             </p>
                             <p style="margin:10px 0 0; font-size:12px; color:#334155; font-weight:600;">
-                                &copy; {{ date('Y') }} SwiftMetaTrd. All Rights Reserved.
+                                &copy; {{ date('Y') }} valeriscrest. All Rights Reserved.
                             </p>
                         </td>
                     </tr>

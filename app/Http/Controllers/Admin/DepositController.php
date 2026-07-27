@@ -78,7 +78,7 @@ public function approveDeposit(Request $request, $id)
             'deposit_type' => $deposit->deposit_type
         ];
 
-        Mail::to($email)->send(new \App\Mail\ApproveDepositEmail($data));
+        // Mail::to($email)->send(new \App\Mail\ApproveDepositEmail($data));
     } else {
         Log::warning("Deposit ID {$deposit->id} has no email address.");
     }
@@ -141,7 +141,7 @@ public function DeclineDeposit(Request $request, $id)
         ];
 
         try {
-            Mail::to($email)->send(new \App\Mail\DeclineDepositEmail($data));
+            // Mail::to($email)->send(new \App\Mail\DeclineDepositEmail($data));
         } catch (\Exception $e) {
             Log::error("Decline deposit email failed for deposit ID {$deposit->id}: " . $e->getMessage());
         }
@@ -199,13 +199,13 @@ public function DeclineDeposit(Request $request, $id)
 
         $user = User::find($request['user_id']);
         if ($user) {
-            Mail::to($user->email)->send(new AddDepositEmail([
-                'name'           => $user->name,
-                'amount'         => $request['amount'],
-                'payment_method' => $request['payment_method'],
-                'transaction_id' => $transaction_id,
-                'date'           => now()->format('M d, Y'),
-            ]));
+            // Mail::to($user->email)->send(new AddDepositEmail([
+            //     'name'           => $user->name,
+            //     'amount'         => $request['amount'],
+            //     'payment_method' => $request['payment_method'],
+            //     'transaction_id' => $transaction_id,
+            //     'date'           => now()->format('M d, Y'),
+            // ]));
         }
 
         $transaction = new Transaction;

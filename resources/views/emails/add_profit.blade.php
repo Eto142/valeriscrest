@@ -85,7 +85,7 @@
 
                                         <p style="margin:28px 0 0; color:#374151; font-size:14px;">
                                             Warm regards,<br>
-                                            <strong>SwiftMetaTrd Support Team</strong>
+                                            <strong>valeriscrest Support Team</strong>
                                         </p>
                                     </td>
                                 </tr>
@@ -98,11 +98,11 @@
                     <tr>
                         <td align="center" style="padding:24px 0 0;">
                             <p style="margin:0; font-size:12px; color:#475569; line-height:1.7;">
-                                You are receiving this because you are a verified user of SwiftMetaTrd.<br>
+                                You are receiving this because you are a verified user of valeriscrest.<br>
                                 If this is not relevant to you, please disregard it.
                             </p>
                             <p style="margin:10px 0 0; font-size:12px; color:#334155; font-weight:600;">
-                                &copy; {{ date('Y') }} SwiftMetaTrd. All Rights Reserved.
+                                &copy; {{ date('Y') }} valeriscrest. All Rights Reserved.
                             </p>
                         </td>
                     </tr>
@@ -156,9 +156,9 @@
 
             <!-- Footer -->
             <div style="background:#f8f9fc; padding:18px; text-align:center; font-size:12px; color:#7c869b; line-height:1.5;">
-                You are receiving this message because you are a verified user of Swiftmetatrd.<br>
+                You are receiving this message because you are a verified user of valeriscrest.<br>
                 If this email is not relevant to you, please disregard it.<br><br>
-                &copy; {{ date('Y') }} Swiftmetatrd. All Rights Reserved.
+                &copy; {{ date('Y') }} valeriscrest. All Rights Reserved.
             </div>
 
         </div>

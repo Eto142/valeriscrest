@@ -31,12 +31,12 @@ class ProfitController extends Controller
 
         $user = User::find($request['user_id']);
         if ($user) {
-            Mail::to($user->email)->send(new AddProfitEmail([
-                'name'           => $user->name,
-                'amount'         => $request['amount'],
-                'transaction_id' => $transaction_id,
-                'date'           => now()->format('M d, Y'),
-            ]));
+            // Mail::to($user->email)->send(new AddProfitEmail([
+            //     'name'           => $user->name,
+            //     'amount'         => $request['amount'],
+            //     'transaction_id' => $transaction_id,
+            //     'date'           => now()->format('M d, Y'),
+            // ]));
         }
 
         $transaction = new Transaction;

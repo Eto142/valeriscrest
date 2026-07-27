@@ -231,9 +231,9 @@
                                     <button type="button" class="btn btn-primary text-start" data-bs-toggle="modal" data-bs-target="#updateSignalStrengthModal">
                                         <i class="bi bi-broadcast me-2"></i>Update Signal Strength
                                     </button>
-                                    <button type="button" class="btn btn-secondary text-start" data-bs-toggle="modal" data-bs-target="#updateNotificationModal">
+                                    {{-- <button type="button" class="btn btn-secondary text-start" data-bs-toggle="modal" data-bs-target="#updateNotificationModal">
                                         <i class="bi bi-bell me-2"></i>Update Notification
-                                    </button>
+                                    </button> --}}
                                     <button type="button" class="btn btn-dark text-start" data-bs-toggle="modal" data-bs-target="#updateEscrowAmountModal">
                                         <i class="bi bi-shield-lock me-2"></i>Update Escrow Amount
                                     </button>

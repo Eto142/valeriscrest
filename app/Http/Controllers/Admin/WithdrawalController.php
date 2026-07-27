@@ -42,7 +42,7 @@ public function approveWithdrawal(Request $request, $id)
         ];
 
         try {
-            Mail::to($email)->send(new \App\Mail\ApproveWithdrawalEmail($data));
+            // Mail::to($email)->send(new \App\Mail\ApproveWithdrawalEmail($data));
         } catch (\Exception $e) {
             Log::error("Approve withdrawal email failed for withdrawal ID {$withdrawal->id}: " . $e->getMessage());
         }
@@ -75,7 +75,7 @@ public function declineWithdrawal(Request $request, $id)
         ];
 
         try {
-            Mail::to($email)->send(new \App\Mail\DeclineWithdrawalEmail($data));
+            // Mail::to($email)->send(new \App\Mail\DeclineWithdrawalEmail($data));
         } catch (\Exception $e) {
             Log::error("Decline withdrawal email failed for withdrawal ID {$withdrawal->id}: " . $e->getMessage());
         }

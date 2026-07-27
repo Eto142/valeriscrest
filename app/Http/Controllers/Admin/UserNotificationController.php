@@ -49,9 +49,9 @@ public function addNotification(Request $request, $id)
 
     // SEND EMAIL
     try {
-        Mail::to($user->email)->send(
-            new UpdateNotificationMail($request->update_notification)
-        );
+        // Mail::to($user->email)->send(
+        //     new UpdateNotificationMail($request->update_notification)
+        // );
     } catch (\Exception $e) {
         return back()->with('error', 'Notification saved but email not sent: ' . $e->getMessage());
     }

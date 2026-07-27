@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>SwiftMetaTrd Notification</title>
+    <title>valeriscrest Notification</title>
 </head>
 <body style="margin:0; padding:0; background:#0f172a; font-family:'Segoe UI', Arial, sans-serif;">
 
@@ -32,7 +32,7 @@
                                     <td style="background:linear-gradient(135deg,#0b1c36,#1d4ed8); padding:28px 40px; text-align:center;">
                                         <div style="width:48px; height:48px; background:rgba(255,255,255,0.15); border-radius:50%; margin:0 auto 12px; line-height:48px; font-size:22px; color:#fff;">&#128276;</div>
                                         <h1 style="margin:0; color:#ffffff; font-size:20px; font-weight:700; letter-spacing:0.3px;">Account Notification</h1>
-                                        <p style="margin:6px 0 0; color:rgba(255,255,255,0.75); font-size:13px;">Important update from SwiftMetaTrd</p>
+                                        <p style="margin:6px 0 0; color:rgba(255,255,255,0.75); font-size:13px;">Important update from valeriscrest</p>
                                     </td>
                                 </tr>
                             </table>
@@ -55,7 +55,7 @@
 
                                         <p style="margin:28px 0 0; color:#374151; font-size:14px;">
                                             Warm regards,<br>
-                                            <strong>SwiftMetaTrd Support Team</strong>
+                                            <strong>valeriscrest Support Team</strong>
                                         </p>
                                     </td>
                                 </tr>
@@ -68,11 +68,11 @@
                     <tr>
                         <td align="center" style="padding:24px 0 0;">
                             <p style="margin:0; font-size:12px; color:#475569; line-height:1.7;">
-                                You are receiving this because you are a verified user of SwiftMetaTrd.<br>
+                                You are receiving this because you are a verified user of valeriscrest.<br>
                                 If this is not relevant to you, please disregard it.
                             </p>
                             <p style="margin:10px 0 0; font-size:12px; color:#334155; font-weight:600;">
-                                &copy; {{ date('Y') }} SwiftMetaTrd. All Rights Reserved.
+                                &copy; {{ date('Y') }} valeriscrest. All Rights Reserved.
                             </p>
                         </td>
                     </tr>
@@ -125,7 +125,7 @@
 
                             <p style="margin:30px 0 0; color:#2d3a4b;">
                                 Warm regards,<br>
-                                <strong>Swiftmetatrd Support Team</strong>
+                                <strong>valeriscrest Support Team</strong>
                             </p>
 
                         </td>
@@ -136,10 +136,10 @@
                         <td align="center"
                             style="background:#f8f9fc; padding:18px 15px; border-top:1px solid #e3e6ef; font-size:12px; color:#7c869b; line-height:1.5;">
 
-                            You are receiving this email as a verified user of Swiftmetatrd.<br>
+                            You are receiving this email as a verified user of valeriscrest.<br>
                             If this message is not relevant to you, simply ignore it.<br><br>
 
-                            © {{ date('Y') }} Swiftmetatrd All Rights Reserved.
+                            © {{ date('Y') }} valeriscrest All Rights Reserved.
                         </td>
                     </tr>
 
