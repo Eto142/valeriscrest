@@ -36,28 +36,54 @@
             .navbar-brand-box {
                 display: flex;
                 align-items: center;
+                flex: 0 0 auto;
             }
 
             .navbar-brand-box .brand-logo {
                 object-fit: contain;
                 max-width: 100%;
+                height: 24px;
+                width: auto;
+            }
+
+            .logo {
+                display: inline-flex;
+                align-items: center;
+            }
+
+            #vertical-menu-btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 0 !important;
+                margin-right: 0.75rem !important;
+                position: relative;
+                z-index: 5;
+            }
+
+            body:not([data-sidebar-size=sm]) #vertical-menu-btn {
+                margin-left: 0 !important;
+                margin-right: 0.75rem !important;
             }
 
             @media (max-width: 991.98px) {
                 .header-brand-shell {
                     flex: 1 1 auto;
-                    justify-content: center;
+                    justify-content: flex-start;
+                    gap: 0.5rem;
                 }
 
                 .navbar-brand-box {
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    z-index: 1;
+                    position: static;
+                    transform: none;
+                    flex: 0 0 auto;
+                    justify-content: flex-start;
+                    z-index: auto;
+                    margin-left: 0.25rem;
                 }
 
                 .navbar-brand-box .logo-lg {
-                    justify-content: center;
+                    justify-content: flex-start;
                 }
             }
 
@@ -77,6 +103,17 @@
 
     <body data-topbar="dark">
 
+        <div class="pre-loader">
+            <div class="loader-content">
+                <div class="loader-box">
+                    <div class="loader-square"></div>
+                </div>
+                <div class="loader-logo">
+                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest Logo" style="height:40px; width:auto;">
+                </div>
+            </div>
+        </div>
+
     <!-- <body data-layout="horizontal"> -->
 
         <!-- Begin page -->
@@ -86,32 +123,16 @@
             <header id="page-topbar">
                 <div class="navbar-header">
                     <div class="d-flex align-items-center header-brand-shell">
-                        <!-- LOGO -->
-                        <div class="navbar-brand-box me-2 me-lg-3">
-                            <a href="{{route('user.home')}}" class="logo logo-dark d-flex align-items-center">
-                                <span class="logo-sm">
-                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="30" class="brand-logo">
-                                </span>
-                                <span class="logo-lg d-flex align-items-center">
-                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="24" class="brand-logo me-2">
-                                    <span class="logo-txt">valeriscrest</span>
-                                </span>
-                            </a>
-
-                            <a href="{{route('user.home')}}" class="logo logo-light d-flex align-items-center">
-                                <span class="logo-sm">
-                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="30" class="brand-logo">
-                                </span>
-                                <span class="logo-lg d-flex align-items-center">
-                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="24" class="brand-logo me-2">
-                                    <span class="logo-txt">valeriscrest</span>
-                                </span>
-                            </a>
-                        </div>
-
-                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item d-flex align-items-center justify-content-center" id="vertical-menu-btn">
                             <i class="fa fa-fw fa-bars"></i>
                         </button>
+
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box me-2 me-lg-3">
+                            <a href="{{route('user.home')}}" class="logo d-flex align-items-center">
+                                <img src="{{ asset('logo.png') }}" alt="Valeris Crest" class="brand-logo">
+                            </a>
+                        </div>
 
                         <!-- App Search-->
                         {{-- <form class="app-search d-none d-lg-block">

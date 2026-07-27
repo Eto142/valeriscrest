@@ -205,6 +205,19 @@
 
         <script src="{{asset('assets/js/app.js')}}"></script>
 
+        <script>
+            (function () {
+                var loader = document.querySelector('.pre-loader');
+                if (!loader) return;
+                window.addEventListener('load', function () {
+                    setTimeout(function () {
+                        loader.classList.add('hidden');
+                    }, 300);
+                });
+                setTimeout(function () { loader.classList.add('hidden'); }, 2500);
+            })();
+        </script>
+
     </body>
 
 
