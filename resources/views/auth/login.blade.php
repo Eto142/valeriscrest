@@ -27,6 +27,8 @@
             font-family: 'Inter', 'Segoe UI', sans-serif;
             margin: 0;
             color: var(--text);
+            overflow-x: hidden;
+            background: #0b0c0e;
         }
 
         /* ===== Split shell ===== */
@@ -69,7 +71,15 @@
             flex: 1 1 54%; display: flex; align-items: center; justify-content: center;
             padding: 40px 24px; background: #0b0c0e; position: relative;
         }
-        .form-wrap { width: 100%; max-width: 420px; animation: authSlide 0.55s cubic-bezier(.22,.68,0,1.2) both; }
+        .form-wrap {
+            width: 100%; max-width: 420px;
+            animation: authSlide 0.55s cubic-bezier(.22,.68,0,1.2) both;
+            background: rgba(11, 12, 14, 0.92);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 20px;
+            padding: 28px;
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+        }
         @keyframes authSlide {
             from { opacity: 0; transform: translateY(24px); }
             to   { opacity: 1; transform: translateY(0); }
@@ -153,12 +163,33 @@
         .form-footer a:hover { text-decoration:underline; }
 
         @media(max-width:900px){
+            .auth-shell { flex-direction: column; }
             .auth-visual { display: none; }
             .mobile-brand { display: block; }
-            .auth-form-side { flex: 1 1 100%; padding: 40px 20px; }
+            .auth-form-side {
+                flex: 1 1 100%;
+                padding: 24px 16px 28px;
+                align-items: flex-start;
+            }
+            .form-wrap { max-width: 100%; padding: 22px; }
         }
         @media(max-width:480px){
-            .form-title { font-size: 1.4rem; }
+            .trust-row { gap: 6px; margin-bottom: 16px; }
+            .trust-pill { padding: 4px 8px; font-size: 0.72rem; }
+            .form-title { font-size: 1.35rem; }
+            .form-sub { font-size: 0.88rem; margin-bottom: 14px; }
+            .d-flex.justify-content-between.align-items-center.mb-4 {
+                flex-direction: column;
+                align-items: flex-start !important;
+                gap: 10px;
+            }
+            .btn-login { padding: 13px 14px; font-size: 0.95rem; }
+        }
+        @media(max-width:375px){
+            .auth-form-side { padding: 18px 12px 24px; }
+            .mobile-brand img { height: 34px; }
+            .form-control { padding: 12px 12px 12px 36px; font-size: 0.92rem; }
+            .f-icon { left: 12px; }
         }
     </style>
 </head>
