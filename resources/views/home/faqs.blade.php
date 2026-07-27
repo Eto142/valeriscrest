@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ | Swift Meta Trade</title>
+    <title>FAQ | valeriscrest Trade</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -216,7 +216,7 @@
     <section class="faq-hero">
         <div class="container">
             <h1 class="faq-main-title">
-                FAQ - Swift Meta Trade
+                FAQ - valeriscrest Trade
             </h1>
         </div>
     </section>
@@ -250,7 +250,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#generalAccordion">
                             <div class="accordion-body">
-                                There are risks in Trading all assets, that is exactly why there is Swift Meta Trade. All trade risks are borne by us. If there is any loss that stalls the trading, the Investor will be Refunded his Capital.
+                                There are risks in Trading all assets, that is exactly why there is valeriscrest Trade. All trade risks are borne by us. If there is any loss that stalls the trading, the Investor will be Refunded his Capital.
                             </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#generalAccordion">
                             <div class="accordion-body">
-                                Deposits and Withdrawals to and from Swift Meta Trade are processed through Bitcoin & Ethereum.
+                                Deposits and Withdrawals to and from valeriscrest Trade are processed through Bitcoin & Ethereum.
                             </div>
                         </div>
                     </div>

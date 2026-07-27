@@ -16,17 +16,17 @@
                             <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                                 <div>
                                     <h5 class="card-title mb-1">
-                                        <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                        AI Account Wallet
+                                        <i class="mdi mdi-wallet-outline me-2 text-primary"></i>
+                                        Account Wallet
                                     </h5>
-                                    <p class="card-title-desc mb-0">Smart asset management with real-time AI analysis</p>
+                                    <p class="card-title-desc mb-0">Smart asset management with real-time analysis</p>
                                     <span class="badge bg-primary mt-1 animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-brain me-1"></i> Neural Network Powered
+                                        <i class="mdi mdi-analytics me-1"></i> Data-driven
                                     </span>
                                 </div>
                                 <div class="action-buttons mt-3 mt-md-0">
                                     <a href="{{route('user.fund.wallet')}}" class="btn btn-primary ai-button">
-                                        <i class="mdi mdi-plus-circle-outline me-1"></i> AI Deposit
+                                        <i class="mdi mdi-plus-circle-outline me-1"></i> Deposit
                                     </a>
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#pass" class="btn btn-outline-primary ms-2 ai-button">
                                         <i class="mdi mdi-arrow-up me-1"></i> Smart Withdraw
@@ -43,11 +43,11 @@
                 <div class="col-12">
                     <div class="card animate__animated animate__fadeInUp">
                         <div class="card-header">
-                            <h4 class="card-title">
+                                <h4 class="card-title">
                                 <i class="mdi mdi-currency-btc me-2 text-warning"></i>
-                                AI Crypto Accounts
+                                Crypto Accounts
                             </h4>
-                            <p class="card-title-desc">Smart cryptocurrency wallets with AI optimization</p>
+                            <p class="card-title-desc">Smart cryptocurrency wallets with optimization</p>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -60,8 +60,8 @@
                                                     <i class="fab fa-btc text-warning"></i>
                                                 </div>
                                                 <div>
-                                                    <h5 class="mb-0">Bitcoin AI Wallet</h5>
-                                                    <small class="text-muted">BTC • Neural Optimized</small>
+                                                    <h5 class="mb-0">Bitcoin Wallet</h5>
+                                                    <small class="text-muted">BTC • Optimized</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-balance mb-4">
@@ -69,18 +69,18 @@
                                                 <p class="text-muted mb-0">≈ {{$user_balance}} USD</p>
                                                 <div class="ai-trend mt-1">
                                                     <i class="mdi mdi-trending-up text-success me-1"></i>
-                                                    <small class="text-success">AI Prediction: Bullish</small>
+                                                    <small class="text-success">Prediction: Bullish</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-actions">
                                                 <a href="{{route('user.fund.wallet')}}" class="btn btn-outline-primary btn-sm me-2 ai-action-btn">
-                                                    <i class="mdi mdi-arrow-down me-1"></i> AI Deposit
+                                                    <i class="mdi mdi-arrow-down me-1"></i> Deposit
                                                 </a>
                                                 <a href="#" data-bs-toggle="modal" data-bs-target="#pass" class="btn btn-outline-primary btn-sm me-2 ai-action-btn">
                                                     <i class="mdi mdi-arrow-up me-1"></i> Smart Withdraw
                                                 </a>
                                                 <a href="#" class="btn btn-outline-primary btn-sm ai-action-btn">
-                                                    <i class="mdi mdi-swap-horizontal me-1"></i> AI Swap
+                                                    <i class="mdi mdi-swap-horizontal me-1"></i> Swap
                                                 </a>
                                             </div>
                                         </div>
@@ -96,7 +96,7 @@
                                                     <i class="fab fa-ethereum text-info"></i>
                                                 </div>
                                                 <div>
-                                                    <h5 class="mb-0">Ethereum AI Wallet</h5>
+                                                    <h5 class="mb-0">Ethereum Wallet</h5>
                                                     <small class="text-muted">ETH • Smart Contract Ready</small>
                                                 </div>
                                             </div>
@@ -105,18 +105,18 @@
                                                 <p class="text-muted mb-0">≈ {{$user_balance}} USD</p>
                                                 <div class="ai-trend mt-1">
                                                     <i class="mdi mdi-trending-neutral text-warning me-1"></i>
-                                                    <small class="text-warning">AI Prediction: Stable</small>
+                                                    <small class="text-warning">Prediction: Stable</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-actions">
                                                 <a href="{{route('user.fund.wallet')}}" class="btn btn-outline-primary btn-sm me-2 ai-action-btn">
-                                                    <i class="mdi mdi-arrow-down me-1"></i> AI Deposit
+                                                    <i class="mdi mdi-arrow-down me-1"></i> Deposit
                                                 </a>
                                                 <a href="#" data-bs-toggle="modal" data-bs-target="#pass" class="btn btn-outline-primary btn-sm me-2 ai-action-btn">
                                                     <i class="mdi mdi-arrow-up me-1"></i> Smart Withdraw
                                                 </a>
                                                 <a href="#" class="btn btn-outline-primary btn-sm ai-action-btn">
-                                                    <i class="mdi mdi-swap-horizontal me-1"></i> AI Swap
+                                                    <i class="mdi mdi-swap-horizontal me-1"></i> Swap
                                                 </a>
                                             </div>
                                         </div>
@@ -132,17 +132,17 @@
                                                     <i class="mdi mdi-lock text-danger"></i>
                                                 </div>
                                                 <div>
-                                                    <h5 class="mb-0">AI Escrow Vault</h5>
-                                                    <small class="text-muted">Secure Holding • AI Protected</small>
+                                                    <h5 class="mb-0">Escrow Vault</h5>
+                                                    <small class="text-muted">Secure Holding • Protected</small>
                                                 </div>
                                                 <span class="badge bg-danger ms-auto ai-pulse">🔒 Locked</span>
                                             </div>
                                             <div class="wallet-balance mb-4">
                                                 <h3 class="text-primary mb-1">{{Auth::user()->currency}}{{Auth::user()->update_escrow}}</h3>
-                                                <p class="text-muted mb-0">AI Secured Funds</p>
+                                                <p class="text-muted mb-0">Secured Funds</p>
                                                 <div class="ai-trend mt-1">
                                                     <i class="mdi mdi-shield-check text-success me-1"></i>
-                                                    <small class="text-success">AI Security: Active</small>
+                                                    <small class="text-success">Security: Active</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -159,11 +159,11 @@
                 <div class="col-12">
                     <div class="card animate__animated animate__fadeInUp">
                         <div class="card-header">
-                            <h4 class="card-title">
+                                <h4 class="card-title">
                                 <i class="mdi mdi-bank me-2 text-success"></i>
-                                AI Fiat Accounts
+                                Fiat Accounts
                             </h4>
-                            <p class="card-title-desc">Smart traditional currency accounts with AI analysis</p>
+                            <p class="card-title-desc">Smart traditional currency accounts with optimization</p>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -176,8 +176,8 @@
                                                     <i class="mdi mdi-currency-usd text-success"></i>
                                                 </div>
                                                 <div>
-                                                    <h5 class="mb-0">USD AI Account</h5>
-                                                    <small class="text-muted">US Dollar • AI Managed</small>
+                                                    <h5 class="mb-0">USD Account</h5>
+                                                    <small class="text-muted">US Dollar • Managed</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-balance mb-4">
@@ -185,12 +185,12 @@
                                                 <p class="text-muted mb-0">≈ {{$user_balance}} USD</p>
                                                 <div class="ai-trend mt-1">
                                                     <i class="mdi mdi-rocket-launch text-info me-1"></i>
-                                                    <small class="text-info">AI Ready for Activation</small>
+                                                    <small class="text-info">Ready for Activation</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-actions">
                                                 <a href="{{route('user.fund.wallet')}}" class="btn btn-outline-primary btn-sm me-2 ai-action-btn">
-                                                    <i class="mdi mdi-arrow-down me-1"></i> AI Deposit
+                                                    <i class="mdi mdi-arrow-down me-1"></i> Deposit
                                                 </a>
                                                 <a href="#" data-bs-toggle="modal" data-bs-target="#pass" class="btn btn-outline-primary btn-sm ai-action-btn">
                                                     <i class="mdi mdi-arrow-up me-1"></i> Smart Withdraw
@@ -212,7 +212,7 @@
                                                     <h5 class="mb-0">EUR AI Account</h5>
                                                     <small class="text-muted">Euro • AI Enhanced</small>
                                                 </div>
-                                                <span class="badge bg-danger ms-auto ai-pulse">🔒 AI Locked</span>
+                                                <span class="badge bg-danger ms-auto ai-pulse">🔒 Locked</span>
                                             </div>
                                             <div class="wallet-balance mb-4">
                                                 <h3 class="text-muted mb-1">AI Locked</h3>
@@ -241,11 +241,11 @@
                                                 <span class="badge bg-danger ms-auto ai-pulse">🔒 AI Locked</span>
                                             </div>
                                             <div class="wallet-balance mb-4">
-                                                <h3 class="text-muted mb-1">AI Locked</h3>
-                                                <p class="text-muted mb-0">Machine Learning in Progress</p>
+                                                <h3 class="text-muted mb-1">Locked</h3>
+                                                <p class="text-muted mb-0">System calibration in progress</p>
                                                 <div class="ai-trend mt-1">
-                                                    <i class="mdi mdi-brain text-info me-1"></i>
-                                                    <small class="text-info">AI Training: 72%</small>
+                                                    <i class="mdi mdi-timer-sand text-info me-1"></i>
+                                                    <small class="text-info">Calibration: 72%</small>
                                                 </div>
                                             </div>
                                         </div>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Swift Meta Trade</title>
+    <title>About Us | valeriscrest Trade</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -240,7 +240,7 @@
                         </h1>
                         <br />
                         <p class="t-p">
-                            Swift Meta Trade is founded with vision to create 100% transparent digital trading experience for its clients.
+                            valeriscrest Trade is founded with vision to create 100% transparent digital trading experience for its clients.
                         </p>
                         <br />
                         <p class="t-p">
@@ -305,7 +305,7 @@
                 <div class="col-md-10 col-sm-12">
                     <h1 class="section-title">About Our Company</h1>
                     <p class="t-p text-center">
-                        Swift Meta Trade is an Optimal Wealth Management Company with emphasis on Wealth Management, Wealth Creation, Trades and Digital Assets usage. We offer various insured services capable of generating and returning good profit yield on crypto assets in the Blockchain through trading on a wide range of Instrument Categories. Swift Meta Trade has qualified financiers/traders that manage and provide financial consulting services to her investors. We pride ourselves with a world class professional customer service, unique trading strategies, optimum transparency and fidelity. Funds Invested with Swift Meta Trade can be Withdrawn, Transferred or Reinvested at will.
+                        valeriscrest Trade is an Optimal Wealth Management Company with emphasis on Wealth Management, Wealth Creation, Trades and Digital Assets usage. We offer various insured services capable of generating and returning good profit yield on crypto assets in the Blockchain through trading on a wide range of Instrument Categories. valeriscrest Trade has qualified financiers/traders that manage and provide financial consulting services to her investors. We pride ourselves with a world class professional customer service, unique trading strategies, optimum transparency and fidelity. Funds Invested with valeriscrest Trade can be Withdrawn, Transferred or Reinvested at will.
                     </p>
                 </div>
             </div>

@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown animate__faster">🚀 AI Referral Program</h4>
+                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown animate__faster">🚀 Referral Program</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
@@ -49,7 +49,7 @@
                                         <i class="mdi mdi-rocket-launch display-4 me-3"></i>
                                         <div>
                                             <h2 class="text-white mb-1">Earn $50 per Referral!</h2>
-                                            <p class="text-white-50 mb-0">AI-powered matching for maximum earnings</p>
+                                            <p class="text-white-50 mb-0">Optimized matching for maximum earnings</p>
                                         </div>
                                     </div>
                                     <div class="ai-bonus-badge">
@@ -78,8 +78,8 @@
                             <div class="ai-icon-container bg-primary mb-3">
                                 <i class="mdi mdi-share-variant icon"></i>
                             </div>
-                            <h5 class="text-primary">Share Your Link</h5>
-                            <p class="text-muted">Share your unique AI referral link with friends</p>
+                                <h5 class="text-primary">Share Your Link</h5>
+                            <p class="text-muted">Share your unique referral link with friends</p>
                             <div class="ai-step-pulse">1</div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                         <div class="card-body">
                             <div class="refer-form-content">
                                 <h3 class="text-primary mb-3">
-                                    <i class="mdi mdi-link-variant me-2"></i>Your AI Referral Link
+                                    <i class="mdi mdi-link-variant me-2"></i>Your Referral Link
                                 </h3>
                                 <p class="text-muted mb-4">Share this link and earn $50 for every qualified referral</p>
                                 

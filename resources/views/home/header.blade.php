@@ -17,14 +17,13 @@
     <!-- Lightning Fast Preloader - Only 300ms! -->
     <div class="pre-loader">
         <div class="loader-content">
+            <div class="loader-box">
+                <div class="loader-square"></div>
+            </div>
             <div class="loader-logo">
                 <!-- You can replace this with your own logo -->
-              <img src="{{ asset('logo.png') }}" alt="GCOWW Logo" style="height:40px; width:auto;">
-
+                <img src="{{ asset('logo.png') }}" alt="GCOWW Logo" style="height:40px; width:auto;">
             </div>
-            <div class="loading-dot"></div>
-            <div class="loading-dot"></div>
-            <div class="loading-dot"></div>
         </div>
     </div>
 

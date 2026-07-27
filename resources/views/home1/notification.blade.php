@@ -42,7 +42,7 @@
     <div class="ai-block">
         <i class="fa fa-robot" style="font-size:32px;color:#f2c94c;"></i>
         <div>
-            <div class="ai-title">AI Trading Update</div>
+            <div class="ai-title">Trading Update</div>
             <div class="ai-text"></div>
         </div>
     </div>
@@ -119,7 +119,7 @@ function showA(){
     let amount = toggleA ? money(100,6000) : money(300,15000);
 
     let msg = toggleA
-        ? `${name} from ${country} earned $${amount} with AI Trading`
+        ? `${name} from ${country} earned $${amount} from trading`
         : `${name} from ${country} withdrew $${amount} successfully`;
 
     toggleA = !toggleA;
@@ -135,7 +135,7 @@ function showB(){
 
     let msg = toggleB
         ? `${name} made a quick profit of $${amount}`
-        : `${name} just received a strong AI trading signal`;
+        : `${name} just received a strong trading signal`;
 
     toggleB = !toggleB;
 

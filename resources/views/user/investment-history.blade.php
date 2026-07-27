@@ -9,12 +9,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown animate__faster">🤖 AI Investment Analytics</h4>
+                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown animate__faster">Investment Analytics</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Investments</a></li>
-                                <li class="breadcrumb-item active">AI Analytics Dashboard</li>
+                                <li class="breadcrumb-item active">Analytics Dashboard</li>
                             </ol>
                         </div>
                     </div>
@@ -46,9 +46,9 @@
                             <div class="row align-items-center">
                                 <div class="col-md-8">
                                     <h3 class="text-white mb-2">
-                                        <i class="mdi mdi-brain me-2"></i>AI Investment History
+                                        <i class="mdi mdi-chart-line me-2"></i>Investment History
                                     </h3>
-                                    <p class="text-white-50 mb-0">Real-time analytics from your AI trading activities</p>
+                                    <p class="text-white-50 mb-0">Real-time analytics from your trading activities</p>
                                 </div>
                                 <div class="col-md-4 text-md-end">
                                     <a href="{{route('user.buy.plan')}}" class="btn btn-outline-light me-2 animate__animated animate__pulse animate__infinite">
@@ -141,7 +141,7 @@
                         <div class="card-header">
                             <div class="d-flex justify-content-between align-items-center">
                                 <h4 class="card-title mb-0">
-                                    <i class="mdi mdi-history me-2"></i>AI Trading History
+                                    <i class="mdi mdi-history me-2"></i>Trading History
                                 </h4>
                                 <span class="badge bg-primary ai-pulse">
                                     <i class="mdi mdi-brain me-1"></i> Live Analytics
@@ -186,7 +186,7 @@
                                                     }
                                                 @endphp
                                                 <span class="badge {{ $badgeClass }}">
-                                                    <i class="mdi mdi-robot me-1"></i>{{ $transaction->plan_name }}
+                                                    <i class="mdi mdi-briefcase-variant me-1"></i>{{ $transaction->plan_name }}
                                                 </span>
                                             </td>
                                             <td>{{ $transaction->plan_duration }}</td>
@@ -213,9 +213,9 @@
                                     <i class="mdi mdi-robot-confused display-4 text-muted ai-float"></i>
                                 </div>
                                 <h5 class="text-muted">No Investment History Found</h5>
-                                <p class="text-muted mb-4">Start your AI investment journey to see analytics here</p>
+                                <p class="text-muted mb-4">Start your investment journey to see analytics here</p>
                                 <a href="{{route('user.buy.plan')}}" class="btn btn-primary ai-button">
-                                    <i class="mdi mdi-robot me-1"></i> Start AI Investing
+                                    <i class="mdi mdi-briefcase-variant me-1"></i> Start Investing
                                 </a>
                             </div>
                             @endif

@@ -9,12 +9,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown">AI Investment Platform</h4>
+                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown">Investment Platform</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Investments</a></li>
-                                <li class="breadcrumb-item active">AI Plans</li>
+                                <li class="breadcrumb-item active">Plans</li>
                             </ol>
                         </div>
                     </div>
@@ -43,8 +43,8 @@
                 <div class="col-12">
                     <div class="card animate__animated animate__fadeInUp">
                         <div class="card-header">
-                            <h4 class="card-title">🤖 AI-Optimized Investment Packages</h4>
-                            <p class="card-title-desc">Powered by advanced machine learning algorithms for maximum returns</p>
+                            <h4 class="card-title">Investment Packages</h4>
+                            <p class="card-title-desc">Powered by proven trading strategies for maximum returns</p>
                         </div>
                         <div class="card-body p-4">
                             
@@ -52,10 +52,10 @@
                             <div class="row mb-4">
                                 <div class="col-12">
                                     <a href="{{url('investment-history')}}" class="btn btn-outline-primary btn-sm animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-chart-line me-1"></i> AI Analytics Dashboard
+                                        <i class="mdi mdi-chart-line me-1"></i> Analytics Dashboard
                                     </a>
                                     <span class="badge bg-primary ms-2 animate__animated animate__bounce">
-                                        <i class="mdi mdi-brain me-1"></i> AI-Powered
+                                        <i class="mdi mdi-brain me-1"></i> Data-Driven
                                     </span>
                                 </div>
                             </div>
@@ -68,10 +68,10 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-start mb-3">
                                                 <h5 class="card-title mb-0">
-                                                    <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                                    Basic AI Package
+                                                    <i class="mdi mdi-briefcase-variant-outline me-2 text-primary"></i>
+                                                    Basic Package
                                                 </h5>
-                                                <span class="badge bg-success ai-pulse">🤖 Active</span>
+                                                <span class="badge bg-success ai-pulse">Active</span>
                                             </div>
                                             <h4 class="text-primary mb-3 animate-count" data-target="200">$0.00</h4>
                                             
@@ -85,7 +85,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                <span class="text-primary fw-medium">Junior AI Trader Available to Copy</span>
+                                                <span class="text-primary fw-medium">Junior Trader Available to Copy</span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -96,16 +96,16 @@
                                                 
                                                 <div class="mb-3">
                                                     <label for="basic-amount" class="form-label">
-                                                        <i class="mdi mdi-calculator me-1"></i>AI Investment Amount
+                                                        <i class="mdi mdi-calculator me-1"></i>Investment Amount
                                                     </label>
                                                     <input type="number" class="form-control ai-input" id="basic-amount" name="amount" 
                                                            min="200" max="9900" placeholder="Enter Amount ($200 - $9,900)" required>
-                                                    <div class="ai-suggestion">AI Suggestion: $500 for optimal start</div>
+                                                    <div class="ai-suggestion">Suggested: $500 for an optimal start</div>
                                                 </div>
                                                 
                                                 <div class="d-grid">
                                                     <button type="submit" class="btn btn-primary w-md ai-button">
-                                                        <i class="mdi mdi-robot me-1"></i> Activate AI Trading
+                                                        <i class="mdi mdi-check me-1"></i> Activate Plan
                                                     </button>
                                                 </div>
                                             </form>
@@ -119,8 +119,8 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-start mb-3">
                                                 <h5 class="card-title mb-0">
-                                                    <i class="mdi mdi-robot-industrial me-2 text-primary"></i>
-                                                    Silver AI Package
+                                                    <i class="mdi mdi-briefcase-variant me-2 text-primary"></i>
+                                                    Silver Package
                                                 </h5>
                                                 <span class="badge bg-success ai-pulse">🚀 Active</span>
                                             </div>
@@ -151,12 +151,12 @@
                                                     </label>
                                                     <input type="number" class="form-control ai-input" id="silver-amount" name="amount" 
                                                            min="10000" max="50000" placeholder="Enter Amount ($10,000 - $50,000)" required>
-                                                    <div class="ai-suggestion">AI Suggestion: $15,000 for balanced growth</div>
+                                                    <div class="ai-suggestion">Suggested: $15,000 for balanced growth</div>
                                                 </div>
                                                 
                                                 <div class="d-grid">
                                                     <button type="submit" class="btn btn-primary w-md ai-button">
-                                                        <i class="mdi mdi-robot me-1"></i> Activate AI Trading
+                                                        <i class="mdi mdi-check me-1"></i> Activate Plan
                                                     </button>
                                                 </div>
                                             </form>
@@ -170,8 +170,8 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-start mb-3">
                                                 <h5 class="card-title mb-0">
-                                                    <i class="mdi mdi-robot-angry-outline me-2 text-primary"></i>
-                                                    Premium AI Package
+                                                    <i class="mdi mdi-briefcase-outline me-2 text-primary"></i>
+                                                    Premium Package
                                                 </h5>
                                                 <span class="badge bg-success ai-pulse">🔥 Active</span>
                                             </div>
@@ -187,7 +187,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                Trader: <span class="text-primary fw-medium">Expert AI Trader Available to Copy</span>
+                                                Trader: <span class="text-primary fw-medium">Expert Trader Available to Copy</span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -198,16 +198,16 @@
                                                 
                                                 <div class="mb-3">
                                                     <label for="premium-amount" class="form-label">
-                                                        <i class="mdi mdi-calculator me-1"></i>AI Investment Amount
+                                                        <i class="mdi mdi-calculator me-1"></i>Investment Amount
                                                     </label>
                                                     <input type="number" class="form-control ai-input" id="premium-amount" name="amount" 
                                                            min="50000" max="150000" placeholder="Enter Amount ($50,000 - $150,000)" required>
-                                                    <div class="ai-suggestion">AI Suggestion: $75,000 for premium returns</div>
+                                                    <div class="ai-suggestion">Suggested: $75,000 for premium returns</div>
                                                 </div>
                                                 
                                                 <div class="d-grid">
                                                     <button type="submit" class="btn btn-primary w-md ai-button">
-                                                        <i class="mdi mdi-robot me-1"></i> Activate AI Trading
+                                                        <i class="mdi mdi-check me-1"></i> Activate Plan
                                                     </button>
                                                 </div>
                                             </form>
@@ -220,9 +220,9 @@
                                     <div class="card plan-card mb-4 ai-plan-card vip-plan animate__animated animate__fadeInRight">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-start mb-3">
-                                                <h5 class="card-title mb-0">
-                                                    <i class="mdi mdi-robot-love-outline me-2 text-primary"></i>
-                                                    VIP AI Package
+                                                    <h5 class="card-title mb-0">
+                                                    <i class="mdi mdi-briefcase-outline me-2 text-primary"></i>
+                                                    VIP Package
                                                 </h5>
                                                 <span class="badge bg-success ai-pulse">💎 Active</span>
                                             </div>
@@ -238,7 +238,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                Trader: <span class="text-primary fw-medium">Master AI Trader Available to Copy</span>
+                                                Trader: <span class="text-primary fw-medium">Master Trader Available to Copy</span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -249,16 +249,16 @@
                                                 
                                                 <div class="mb-3">
                                                     <label for="vip-amount" class="form-label">
-                                                        <i class="mdi mdi-calculator me-1"></i>AI Investment Amount
+                                                        <i class="mdi mdi-calculator me-1"></i>Investment Amount
                                                     </label>
                                                     <input type="number" class="form-control ai-input" id="vip-amount" name="amount" 
                                                            min="150000" placeholder="Enter Amount (Minimum $150,000)" required>
-                                                    <div class="ai-suggestion">AI Suggestion: $200,000 for elite performance</div>
+                                                    <div class="ai-suggestion">Suggested: $200,000 for elite performance</div>
                                                 </div>
                                                 
                                                 <div class="d-grid">
                                                     <button type="submit" class="btn btn-primary w-md ai-button">
-                                                        <i class="mdi mdi-robot me-1"></i> Activate AI Trading
+                                                        <i class="mdi mdi-check me-1"></i> Activate Plan
                                                     </button>
                                                 </div>
                                             </form>

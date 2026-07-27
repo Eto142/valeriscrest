@@ -13,12 +13,12 @@
                             <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                                 <div>
                                     <h5 class="card-title mb-1">
-                                        <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                        AI Trading Dashboard
+                                        <i class="mdi mdi-chart-line me-2 text-primary"></i>
+                                        Trading Dashboard
                                     </h5>
-                                    <p class="card-title-desc mb-0">Smart trading with real-time AI market analysis</p>
+                                    <p class="card-title-desc mb-0">Smart trading with real-time market analysis</p>
                                     <span class="badge bg-primary mt-1 animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-brain me-1"></i> Neural Network Powered
+                                        <i class="mdi mdi-analytics me-1"></i> Data-driven
                                     </span>
                                 </div>
                                 <div class="action-buttons mt-3 mt-md-0">
@@ -42,9 +42,9 @@
                         <div class="card-header">
                             <h4 class="card-title">
                                 <i class="mdi mdi-chart-areaspline me-2 text-primary"></i>
-                                AI Market Analysis
+                                Market Analysis
                             </h4>
-                            <p class="card-title-desc">Real-time AI-powered market analysis and predictions</p>
+                            <p class="card-title-desc">Real-time market analysis and predictions</p>
                         </div>
                         <div class="card-body">
                             <!-- TradingView Widget -->
@@ -65,8 +65,8 @@
                                                     <i class="mdi mdi-brain text-primary"></i>
                                                 </div>
                                                 <div>
-                                                    <h5 class="mb-0">AI Market Sentiment</h5>
-                                                    <small class="text-muted">Neural Network Analysis</small>
+                                                    <h5 class="mb-0">Market Sentiment</h5>
+                                                    <small class="text-muted">Algorithmic Analysis</small>
                                                 </div>
                                             </div>
                                             <div class="ai-analysis-content">
@@ -85,8 +85,8 @@
                                                     <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="ai-trend">
-                                                    <i class="mdi mdi-robot text-primary me-1"></i>
-                                                    <small class="text-primary">AI Recommendation: Hold Position</small>
+                                                    <i class="mdi mdi-lightbulb-outline text-primary me-1"></i>
+                                                    <small class="text-primary">Recommendation: Hold Position</small>
                                                 </div>
                                             </div>
                                         </div>

@@ -2,11 +2,11 @@
 <html lang="en">
 
     
-<!-- Mirrored from themesbrand.com/swift meta/layouts/{{route('user.home')}} by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Nov 2025 21:17:32 GMT -->
+<!-- Mirrored from themesbrand.com/valeriscrest/layouts/{{route('user.home')}} by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Nov 2025 21:17:32 GMT -->
 <head>
 
         <meta charset="utf-8" />
-        <title>Dashboard | swift meta - user dashboard</title>
+        <title>Dashboard | valeriscrest - user dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="user dashboard" name="description" />
         <meta content="" name="" />
@@ -47,7 +47,7 @@
                                     <img src="logo.png" alt="" height="30">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">swift meta</span>
+                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">valeriscrest</span>
                                 </span>
                             </a>
 
@@ -56,7 +56,7 @@
                                     <img src="logo.png" alt="" height="30">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">swift meta</span>
+                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">valeriscrest</span>
                                 </span>
                             </a>
                         </div>
@@ -250,7 +250,7 @@
 
                             <li class="menu-title" data-key="t-apps">Trading Menu</li>
                 
-                            <li>
+                            {{-- <li>
                                 <a href="javascript: void(0);" class="has-arrow">
                                     <i class="bi bi-bar-chart"></i>
 
@@ -263,7 +263,7 @@
                                     <li><a href="{{route('user.crypto')}}" data-key="t-customers">Crypto Trade</a></li>
                                    
                                 </ul>
-                            </li>
+                            </li> --}}
 
                             <li>
                                 <a href="{{route('user.buy.plan')}}">
@@ -374,7 +374,7 @@
                             <div class="card-body">
                                 <img src="assets/images/giftbox.png" alt="">
                                 <div class="mt-4">
-                                    <h5 class="alertcard-title font-size-16">Welcome to swift meta</h5>
+                                    <h5 class="alertcard-title font-size-16">Welcome to valeriscrest</h5>
                                     <p class="font-size-13 text-dark">Refer and get bonuses.</p>
           
                                 </div>

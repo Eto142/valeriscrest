@@ -13,12 +13,12 @@
                             <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                                 <div>
                                     <h5 class="card-title mb-1">
-                                        <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                        AI Identity Verification
+                                        <i class="mdi mdi-account-check-outline me-2 text-primary"></i>
+                                        Identity Verification
                                     </h5>
-                                    <p class="card-title-desc mb-0">Smart KYC verification with AI-powered document analysis</p>
+                                    <p class="card-title-desc mb-0">Smart KYC verification with automated document analysis</p>
                                     <span class="badge bg-primary mt-1 animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-brain me-1"></i> Neural Network Powered
+                                        <i class="mdi mdi-check-circle me-1"></i> Automated
                                     </span>
                                 </div>
                                 <div class="action-buttons mt-3 mt-md-0">
@@ -42,9 +42,9 @@
                         <div class="card-header">
                             <h4 class="card-title">
                                 <i class="mdi mdi-shield-account me-2 text-success"></i>
-                                AI Verification Status
+                                Verification Status
                             </h4>
-                            <p class="card-title-desc">Real-time KYC verification status with AI monitoring</p>
+                            <p class="card-title-desc">Real-time KYC verification status</p>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -76,7 +76,7 @@
                                                 <p class="text-muted mb-0">Last updated: {{ Auth::user()->updated_at->format('M d, Y') }}</p>
                                                 <div class="ai-trend mt-1">
                                                     <i class="mdi mdi-clock-outline text-info me-1"></i>
-                                                    <small class="text-info">AI Monitoring: Active</small>
+                                                    <small class="text-info">Monitoring: Active</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,15 +93,15 @@
                                                 </div>
                                                 <div>
                                                     <h5 class="mb-0">Document Upload</h5>
-                                                    <small class="text-muted">AI Document Verification</small>
+                                                    <small class="text-muted">Document Verification</small>
                                                 </div>
                                             </div>
                                             <div class="wallet-balance mb-4">
                                                 <h3 class="text-primary mb-1">Ready to Upload</h3>
-                                                <p class="text-muted mb-0">AI will analyze your documents</p>
+                                                <p class="text-muted mb-0">We will analyze your documents</p>
                                                 <div class="ai-trend mt-1">
-                                                    <i class="mdi mdi-robot text-primary me-1"></i>
-                                                    <small class="text-primary">AI Analysis: Standing By</small>
+                                                    <i class="mdi mdi-clock-outline text-primary me-1"></i>
+                                                    <small class="text-primary">Analysis: Standing By</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -120,9 +120,9 @@
                         <div class="card-header">
                             <h4 class="card-title">
                                 <i class="mdi mdi-file-document me-2 text-info"></i>
-                                AI Document Verification
+                                Document Verification
                             </h4>
-                            <p class="card-title-desc">Upload your identity documents for AI-powered verification</p>
+                            <p class="card-title-desc">Upload your identity documents for automated verification</p>
                         </div>
                         <div class="card-body">
                             <!-- Alerts -->
@@ -157,7 +157,7 @@
                                                     </div>
                                                     <div>
                                                         <h5 class="mb-0">Front Side of ID</h5>
-                                                        <small class="text-muted">AI Document Analysis</small>
+                                                        <small class="text-muted">Document Analysis</small>
                                                     </div>
                                                 </div>
                                                 <div class="nk-kycfm-upload">
@@ -209,7 +209,7 @@
                                                     </div>
                                                     <div>
                                                         <h5 class="mb-0">Back Side of ID</h5>
-                                                        <small class="text-muted">AI Document Analysis</small>
+                                                        <small class="text-muted">Document Analysis</small>
                                                     </div>
                                                 </div>
                                                 <div class="nk-kycfm-upload">

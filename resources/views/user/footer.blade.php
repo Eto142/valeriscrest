@@ -3,11 +3,11 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © swift meta.
+                                <script>document.write(new Date().getFullYear())</script> © valeriscrest.
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
-                                    swift meta <a href="#!" class="text-decoration-underline">trade</a>
+                                    valeriscrest <a href="#!" class="text-decoration-underline">trade</a>
                                 </div>
                             </div>
                         </div>
@@ -208,5 +208,5 @@
     </body>
 
 
-<!-- Mirrored from themesbrand.com/swift meta/layouts/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Nov 2025 21:20:05 GMT -->
+<!-- Mirrored from themesbrand.com/valeriscrest/layouts/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Nov 2025 21:20:05 GMT -->
 </html>

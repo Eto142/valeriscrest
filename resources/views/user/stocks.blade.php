@@ -13,20 +13,20 @@
                             <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                                 <div>
                                     <h5 class="card-title mb-1">
-                                        <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                        AI Stock Market Analysis
+                                        <i class="mdi mdi-chart-line me-2 text-primary"></i>
+                                        Stock Market Analysis
                                     </h5>
-                                    <p class="card-title-desc mb-0">Real-time AI-powered stock market insights and hotlists</p>
+                                    <p class="card-title-desc mb-0">Real-time stock market insights and hotlists</p>
                                     <span class="badge bg-primary mt-1 animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-brain me-1"></i> Neural Network Powered
+                                        <i class="mdi mdi-brain me-1"></i> Data-driven Insights
                                     </span>
                                 </div>
                                 <div class="action-buttons mt-3 mt-md-0">
                                     <button type="button" class="btn btn-primary ai-button">
                                         <i class="mdi mdi-chart-line me-1"></i> Market Analysis
                                     </button>
-                                    <button type="button" class="btn btn-outline-primary ms-2 ai-button">
-                                        <i class="mdi mdi-trending-up me-1"></i> AI Signals
+                                        <button type="button" class="btn btn-outline-primary ms-2 ai-button">
+                                        <i class="mdi mdi-trending-up me-1"></i> Signals
                                     </button>
                                 </div>
                             </div>
@@ -46,15 +46,15 @@
                                 </div>
                                 <div>
                                     <h5 class="mb-0">S&P 500</h5>
-                                    <small class="text-muted">AI Analysis</small>
+                                    <small class="text-muted">Market Analysis</small>
                                 </div>
                             </div>
                             <div class="wallet-balance">
                                 <h3 class="text-primary mb-1">4,530.20</h3>
                                 <p class="text-muted mb-0">+0.89% Today</p>
-                                <div class="ai-trend mt-1">
+                                    <div class="ai-trend mt-1">
                                     <i class="mdi mdi-trending-up text-success me-1"></i>
-                                    <small class="text-success">AI Signal: Bullish</small>
+                                    <small class="text-success">Signal: Bullish</small>
                                 </div>
                             </div>
                         </div>
@@ -118,12 +118,12 @@
                                     <small class="text-muted">Stock Predictions</small>
                                 </div>
                             </div>
-                            <div class="wallet-balance">
+                                    <div class="wallet-balance">
                                 <h3 class="text-primary mb-1">84.7%</h3>
                                 <p class="text-muted mb-0">Last 30 Days</p>
                                 <div class="ai-trend mt-1">
                                     <i class="mdi mdi-shield-check text-success me-1"></i>
-                                    <small class="text-success">AI Performance: Excellent</small>
+                                    <small class="text-success">Performance: Excellent</small>
                                 </div>
                             </div>
                         </div>

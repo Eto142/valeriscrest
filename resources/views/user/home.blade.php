@@ -9,12 +9,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown">🤖 Welcome {{ Auth::user()->name }}!</h4>
+                        <h4 class="mb-sm-0 font-size-18 animate__animated animate__fadeInDown">Welcome {{ Auth::user()->name }}!</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                                <li class="breadcrumb-item active">AI Trading Platform</li>
+                                <li class="breadcrumb-item active">Investment Dashboard</li>
                             </ol>
                         </div>
                     </div>
@@ -192,9 +192,9 @@
         <div class="card-body">
 
             <div class="d-flex align-items-center justify-content-between mb-3">
-                <h5 class="card-title mb-0 d-flex align-items-center text-dark">
+                    <h5 class="card-title mb-0 d-flex align-items-center text-dark">
                     <i class="mdi mdi-access-point me-2 text-primary"></i>
-                    AI Signal Strength
+                    Market Signal
                 </h5>
 
                 <div class="signal-value fw-bold text-primary" style="font-size: 1.2rem;">
@@ -250,10 +250,16 @@
                 <i class="mdi mdi-plus-circle me-2"></i> Add Funds
             </a>
 
-            <a href="{{route('user.copy')}}" 
+            {{-- <a href="{{route('user.copy')}}" 
                class="btn btn-success btn-lg ai-action-btn"
                style="white-space:nowrap;">
-                <i class="mdi mdi-robot me-2"></i> Trading Bot
+                <i class="mdi mdi-cog-outline me-2"></i> Trading Tools
+            </a> --}}
+
+            <a href="{{route('user.withdrawal')}}" 
+               class="btn btn-success btn-lg ai-action-btn"
+               style="white-space:nowrap;">
+                <i class="mdi mdi-cog-outline me-2"></i> Withdraw Funds
             </a>
         </div>
     </div>

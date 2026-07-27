@@ -36,7 +36,7 @@
     <section class="hero-slider">
 
         {{-- Slide 1 --}}
-        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1920&auto=format&fit=crop')">
+        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1920&auto=format&fit=crop')">
             <div class="hero-float-shape shape-1"></div>
             <div class="hero-float-shape shape-2"></div>
             <div class="hero-float-shape shape-3"></div>
@@ -76,7 +76,7 @@
         </div>
 
         {{-- Slide 2 --}}
-        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1920&auto=format&fit=crop')">
+        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1920&auto=format&fit=crop')">
             <div class="hero-float-shape shape-1"></div>
             <div class="hero-float-shape shape-2"></div>
             <div class="container">
@@ -115,7 +115,7 @@
         </div>
 
         {{-- Slide 3 --}}
-        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1920&auto=format&fit=crop')">
+        <div class="slider-item" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1920&auto=format&fit=crop')">
             <div class="hero-float-shape shape-1"></div>
             <div class="hero-float-shape shape-3"></div>
             <div class="container">
@@ -299,11 +299,7 @@
                 </div>
                 <div class="col-lg-6" data-reveal data-reveal-delay="2">
                     <div class="hero-widget-wrap">
-                        <div id="tradingview_advancedchart" style="height:420px;"></div>
-                        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                        <script type="text/javascript">
-                        new TradingView.widget({"autosize":true,"symbol":"BINANCE:ETHUSDT","interval":"D","timezone":"Etc/UTC","theme":"dark","style":"1","locale":"en","enable_publishing":false,"hide_top_toolbar":false,"container_id":"tradingview_advancedchart"});
-                        </script>
+                        <img src="https://images.unsplash.com/photo-1642790551116-18e150f248e3?q=80&w=1200&auto=format&fit=crop" alt="Trading platform chart" style="width:100%;height:420px;object-fit:cover;border-radius:12px;">
                     </div>
                 </div>
             </div>
@@ -523,64 +519,64 @@
             <div class="text-center mb-2" data-reveal>
                 <span class="section-label"><i class="fas fa-quote-left"></i> Client Stories</span>
             </div>
-            <h2 class="section-title" data-reveal data-reveal-delay="1">What Our Clients Say</h2>
-            <p class="section-subtitle" data-reveal data-reveal-delay="2">Real investors. Real returns. Hear directly from the Valeris Crest community.</p>
+            <h2 class="section-title" data-reveal data-reveal-delay="1">What Our Investors Say</h2>
+            <p class="section-subtitle" data-reveal data-reveal-delay="2">Real investors. Real momentum. Hear how the Valeris Crest community is growing with every step.</p>
 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="1">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"I got my first investment profit of $15k. Big thanks to the team at Valeris Crest! The platform is intuitive and support is always there when you need them."</p>
+                        <p class="testimonial-text">"My first profit came faster than I expected. The dashboard is clear, the support is responsive, and every milestone feels rewarding."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=11" alt="Robert Pope" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=21" alt="Maya Chen" class="testimonial-avatar">
                             <div>
-                                <strong>Robert Pope</strong>
+                                <strong>Maya Chen</strong>
                                 <small>Mini Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="2">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Big shout-out to Valeris Crest. I got my Bitcoin back after a trading error  the insurance policy really works! I'll never trade anywhere else."</p>
+                        <p class="testimonial-text">"I recovered my crypto with the protection plan and never looked back. The process felt secure, transparent, and genuinely supportive."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=32" alt="Steve Walter" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=29" alt="Daniel Brooks" class="testimonial-avatar">
                             <div>
-                                <strong>Steve Walter</strong>
+                                <strong>Daniel Brooks</strong>
                                 <small>Silver Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="3">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Thank you Valeris Crest! I'm now debt free. I repaid my $64,000 loan entirely from profits. The Gold plan was the best investment decision of my life."</p>
+                        <p class="testimonial-text">"The Gold plan helped me clear a major debt and build long-term confidence. Valeris Crest made the entire journey feel realistic and steady."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=47" alt="Veronica Keith" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=41" alt="Sofia Alvarez" class="testimonial-avatar">
                             <div>
-                                <strong>Veronica Keith</strong>
+                                <strong>Sofia Alvarez</strong>
                                 <small>Gold Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="4">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Started with the Diamond plan 6 months ago. My portfolio has grown beyond anything I imagined. The team at Valeris Crest works hard — positions are managed even while I sleep!"</p>
+                        <p class="testimonial-text">"The Diamond plan gave me the freedom to grow my portfolio while staying focused on life. The team is consistent and the results speak for themselves."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=60" alt="Marcus J. Lee" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=54" alt="Noah Bennett" class="testimonial-avatar">
                             <div>
-                                <strong>Marcus J. Lee</strong>
+                                <strong>Noah Bennett</strong>
                                 <small>Diamond Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
             </div>
@@ -620,11 +616,8 @@
             </div>
             <h2 class="section-title" data-reveal data-reveal-delay="1">Live Forex Cross Rates</h2>
             <p class="section-subtitle" data-reveal data-reveal-delay="2">Real-time currency matrix across major global pairs</p>
-            <div class="tradingview-widget-container" data-reveal data-reveal-delay="3">
-                <div class="tradingview-widget-container__widget"></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
-                {"width":"100%","height":"400","currencies":["EUR","USD","JPY","GBP","CHF","AUD","CAD","NZD","CNY"],"isTransparent":true,"colorTheme":"dark","locale":"en"}
-                </script>
+            <div class="text-center" data-reveal data-reveal-delay="3">
+                <img src="{{ asset('assets/images/bg-3.jpg') }}" alt="Live Forex Cross Rates" class="img-fluid rounded shadow-lg" style="max-width:100%; height:auto;">
             </div>
         </div>
     </section>

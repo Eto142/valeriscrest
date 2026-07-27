@@ -48,9 +48,9 @@
                         <div class="live-badge">
                             <span class="live-dot"></span> Markets Live Now
                         </div>
-                        <h1 class="slide-h1">AI-Powered Trading.<br><span class="gradient-text">Fully Automated.</span></h1>
+                        <h1 class="slide-h1">Advanced Trading.<br><span class="gradient-text">Fully Managed.</span></h1>
                         <p class="slide-subtitle">
-                            Our advanced artificial intelligence executes trades automatically, analyzes market patterns, and maximizes profit potential even while you sleep.
+                            Our professional trading strategies execute trades automatically, analyze market patterns, and aim to maximize returns.
                         </p>
                         <div class="d-flex flex-wrap gap-3">
                             <a href="{{ route('login') }}" class="btn btn-primary-custom"><i class="fas fa-sign-in-alt me-2"></i>Login to Account</a>
@@ -71,7 +71,7 @@
                         <div class="tradingview-widget-container">
                             <div class="tradingview-widget-container__widget" style="height:450px;"></div>
                             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-                            {"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"100%","isTransparent":true,"tabs":[{"title":"AI Markets","symbols":[{"s":"CRYPTO:BTCUSD","d":"Bitcoin"},{"s":"NASDAQ:AAPL","d":"Apple"},{"s":"NASDAQ:NVDA","d":"NVIDIA AI"},{"s":"NASDAQ:GOOG","d":"Google AI"}]}]}
+                            {"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"100%","isTransparent":true,"tabs":[{"title":"Markets","symbols":[{"s":"CRYPTO:BTCUSD","d":"Bitcoin"},{"s":"NASDAQ:AAPL","d":"Apple"},{"s":"NASDAQ:NVDA","d":"NVIDIA"},{"s":"NASDAQ:GOOG","d":"Google"}]}]}
                             </script>
                         </div>
                     </div>
@@ -87,18 +87,18 @@
                 <div class="row align-items-center slider-content">
                     <div class="col-lg-6">
                         <div class="live-badge">
-                            <span class="live-dot"></span> AI Engine Active
+                            <span class="live-dot"></span> Engine Active
                         </div>
-                        <h1 class="slide-h1">Next-Generation<br><span class="gradient-text">AI Trading Tech</span></h1>
+                        <h1 class="slide-h1">Next-Generation<br><span class="gradient-text">Trading Tech</span></h1>
                         <p class="slide-subtitle">
                             Trade cryptocurrencies, indices, and forex with ultra-fast AI prediction engines designed to detect opportunities before humans can.
                         </p>
                         <div class="d-flex flex-wrap gap-3">
-                            <a href="{{ route('register') }}" class="btn btn-primary-custom"><i class="fas fa-robot me-2"></i>Start AI Trading</a>
-                            <a href="#" class="btn btn-outline-light-custom"><i class="fas fa-info-circle me-2"></i>How AI Works</a>
+                            <a href="{{ route('register') }}" class="btn btn-primary-custom"><i class="fas fa-rocket me-2"></i>Start Trading</a>
+                            <a href="#" class="btn btn-outline-light-custom"><i class="fas fa-info-circle me-2"></i>How It Works</a>
                         </div>
                         <ul class="slider-features">
-                            <li><i class="fas fa-check"></i> Predictive AI Algorithms</li>
+                            <li><i class="fas fa-check"></i> Predictive Algorithms</li>
                             <li><i class="fas fa-check"></i> Lightning-Fast Market Execution</li>
                             <li><i class="fas fa-check"></i> Intelligent Risk Optimization</li>
                         </ul>
@@ -130,18 +130,18 @@
                         <div class="live-badge">
                             <span class="live-dot"></span> Zero Hidden Fees
                         </div>
-                        <h1 class="slide-h1">AI-Optimized Trading.<br><span class="gradient-text">Minimal Costs.</span></h1>
+                        <h1 class="slide-h1">Optimized Trading.<br><span class="gradient-text">Minimal Costs.</span></h1>
                         <p class="slide-subtitle">
-                            Experience low fees, instant execution, and fully automated AI trade selection built to deliver the best market entries.
+                            Experience low fees, instant execution, and automated trade selection built to deliver competitive market entries.
                         </p>
                         <div class="d-flex flex-wrap gap-3">
                             <a href="{{ route('register') }}" class="btn btn-primary-custom"><i class="fas fa-user-plus me-2"></i>Create AI Account</a>
                             <a href="#" class="btn btn-outline-light-custom"><i class="fas fa-tags me-2"></i>View Pricing</a>
                         </div>
                         <ul class="slider-features">
-                            <li><i class="fas fa-check"></i> AI Opens Your Account in Seconds</li>
+                            <li><i class="fas fa-check"></i> Account opens in seconds</li>
                             <li><i class="fas fa-check"></i> Automated Deposits (20+ Methods)</li>
-                            <li><i class="fas fa-check"></i> Trade Instantly With Zero Setup</li>
+                            <li><i class="fas fa-check"></i> Trade instantly with zero setup</li>
                         </ul>
                         <div class="security-badges">
                             <span class="security-badge"><i class="fas fa-percentage"></i> 0% Commission</span>
@@ -522,64 +522,64 @@
     ═══════════════════════════════════════════ -->
     <section class="section">
         <div class="container">
-            <h2 class="section-title" data-reveal>What Our Clients Say</h2>
-            <p class="section-subtitle" data-reveal data-reveal-delay="1">Real investors. Real results. Sharing their Valeris Crest experience.</p>
+            <h2 class="section-title" data-reveal>What Our Investors Say</h2>
+            <p class="section-subtitle" data-reveal data-reveal-delay="1">Real investors. Real momentum. Hear how the Valeris Crest community is growing with every step.</p>
 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="1">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                        <p class="testimonial-text">"I got my first investment profit of $15k. Big thanks to the team at Valeris Crest! The platform is intuitive and support is always there when you need them."</p>
+                        <p class="testimonial-text">"My first profit came faster than I expected. The dashboard is clear, the support is responsive, and every milestone feels rewarding."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=11" alt="Robert Pope" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=21" alt="Maya Chen" class="testimonial-avatar">
                             <div>
-                                <strong>Robert Pope</strong><br>
+                                <strong>Maya Chen</strong><br>
                                 <small style="color:var(--text-muted);">Mini Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="2">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                        <p class="testimonial-text">"Big shout-out to Valeris Crest. I got my Bitcoin back after a trading error the insurance policy really works! I'll never trade anywhere else."</p>
+                        <p class="testimonial-text">"I recovered my crypto with the protection plan and never looked back. The process felt secure, transparent, and genuinely supportive."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=32" alt="Steve Walter" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=29" alt="Daniel Brooks" class="testimonial-avatar">
                             <div>
-                                <strong>Steve Walter</strong><br>
+                                <strong>Daniel Brooks</strong><br>
                                 <small style="color:var(--text-muted);">Silver Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="3">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                        <p class="testimonial-text">"Thank you Valeris Crest I'm now debt free! I repaid my $64,000 loan entirely from profits. The Gold plan was the best investment decision of my life."</p>
+                        <p class="testimonial-text">"The Gold plan helped me clear a major debt and build long-term confidence. Valeris Crest made the entire journey feel realistic and steady."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=47" alt="Veronica Keith" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=41" alt="Sofia Alvarez" class="testimonial-avatar">
                             <div>
-                                <strong>Veronica Keith</strong><br>
+                                <strong>Sofia Alvarez</strong><br>
                                 <small style="color:var(--text-muted);">Gold Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="4">
                     <div class="testimonial-card h-100">
                         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                        <p class="testimonial-text">"Started with the Diamond plan 6 months ago. My portfolio has grown beyond anything I imagined. The AI never misses an opportunity it trades while I sleep!"</p>
+                        <p class="testimonial-text">"The Diamond plan gave me the freedom to grow my portfolio while staying focused on life. The team is consistent and the results speak for themselves."</p>
                         <div class="testimonial-author">
-                            <img src="https://i.pravatar.cc/100?img=60" alt="Marcus J. Lee" class="testimonial-avatar">
+                            <img src="https://i.pravatar.cc/100?img=54" alt="Noah Bennett" class="testimonial-avatar">
                             <div>
-                                <strong>Marcus J. Lee</strong><br>
+                                <strong>Noah Bennett</strong><br>
                                 <small style="color:var(--text-muted);">Diamond Plan Investor</small>
                             </div>
                         </div>
-                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Client</div>
+                        <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Investor</div>
                     </div>
                 </div>
             </div>
@@ -634,11 +634,8 @@
         <div class="container">
             <h2 class="section-title" data-reveal>Live Forex Cross Rates</h2>
             <p class="section-subtitle" data-reveal data-reveal-delay="1">Real-time currency matrix across major global pairs</p>
-            <div class="tradingview-widget-container" data-reveal data-reveal-delay="2">
-                <div class="tradingview-widget-container__widget"></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
-                {"width":"100%","height":"400","currencies":["EUR","USD","JPY","GBP","CHF","AUD","CAD","NZD","CNY"],"isTransparent":true,"colorTheme":"light","locale":"en"}
-                </script>
+            <div class="text-center" data-reveal data-reveal-delay="2">
+                <img src="{{ asset('assets/images/bg-3.jpg') }}" alt="Live Forex Cross Rates" class="img-fluid rounded shadow-lg" style="max-width:100%; height:auto;">
             </div>
         </div>
     </section>

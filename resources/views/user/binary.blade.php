@@ -13,12 +13,12 @@
                             <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
                                 <div>
                                     <h5 class="card-title mb-1">
-                                        <i class="mdi mdi-robot-excited-outline me-2 text-primary"></i>
-                                        AI Trading Dashboard
+                                        <i class="mdi mdi-chart-line me-2 text-primary"></i>
+                                        Trading Dashboard
                                     </h5>
-                                    <p class="card-title-desc mb-0">Smart trading with real-time AI market analysis</p>
+                                    <p class="card-title-desc mb-0">Smart trading with real-time market analysis</p>
                                     <span class="badge bg-primary mt-1 animate__animated animate__pulse animate__infinite">
-                                        <i class="mdi mdi-brain me-1"></i> Neural Network Powered
+                                        <i class="mdi mdi-analytics me-1"></i> Data-driven
                                     </span>
                                 </div>
                                 <div class="action-buttons mt-3 mt-md-0">
@@ -42,9 +42,9 @@
                         <div class="card-header">
                             <h4 class="card-title">
                                 <i class="mdi mdi-chart-areaspline me-2 text-primary"></i>
-                                AI Market Analysis - EUR/USD
+                                Market Analysis - EUR/USD
                             </h4>
-                            <p class="card-title-desc">Real-time AI-powered Forex market analysis and predictions</p>
+                            <p class="card-title-desc">Real-time market analysis and predictions</p>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -85,8 +85,8 @@
                                             </div>
                                             
                                             <!-- AI Analysis -->
-                                            <div class="ai-analysis mb-4">
-                                                <h6 class="text-muted mb-3">AI Market Sentiment</h6>
+                                                <div class="ai-analysis mb-4">
+                                                <h6 class="text-muted mb-3">Market Sentiment</h6>
                                                 <div class="d-flex justify-content-between mb-2">
                                                     <span class="text-muted">Bullish Confidence</span>
                                                     <span class="text-success">72%</span>
@@ -102,8 +102,8 @@
                                                     <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <div class="ai-recommendation text-center p-3 bg-light rounded">
-                                                    <i class="mdi mdi-robot text-primary me-2"></i>
-                                                    <strong>AI Recommendation:</strong> 
+                                                    <i class="mdi mdi-lightbulb-outline text-primary me-2"></i>
+                                                    <strong>Recommendation:</strong> 
                                                     <span class="text-success">Hold Position</span>
                                                 </div>
                                             </div>

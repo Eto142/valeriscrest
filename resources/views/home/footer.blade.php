@@ -5,10 +5,10 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-logo">
-                        <img src="{{ asset('logo.png') }}" alt="Swift Meta Trade Logo" style="width:150px;height:40px;object-fit:contain;">
+                        <img src="{{ asset('logo.png') }}" alt="valeriscrest Trade Logo" style="width:150px;height:40px;object-fit:contain;">
                     </div>
                     <p class="footer-desc">
-                        Are you looking for a stable, reliable, guaranteed weekly income? Swift Meta Trade offers a range of options to make the most of your investment. Get involved to discover the power of AI trading.
+                        Are you looking for a stable, reliable, guaranteed weekly income? valeriscrest Trade offers a range of options to make the most of your investment. Get involved to discover the potential of our trading platform.
                     </p>
                     <div class="footer-social">
                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -66,7 +66,7 @@
             <hr class="footer-divider">
 
             <div class="footer-bottom">
-                <p>&copy; {{ date('Y') }} Swift Meta Trade. All rights reserved.</p>
+                <p>&copy; {{ date('Y') }} valeriscrest Trade. All rights reserved.</p>
                 <div class="d-flex flex-wrap gap-3">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
