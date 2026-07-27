@@ -102,15 +102,21 @@
             border: 1.5px solid var(--input-border);
             border-radius: 10px;
             font-size: 0.94rem;
-            color: var(--text);
-            background: var(--input-bg);
+            color: #f5f7fb;
+            background: #0f1319;
             outline: none;
             transition: border-color .2s, box-shadow .2s;
+            -webkit-text-fill-color: #f5f7fb;
+        }
+        .form-control::placeholder {
+            color: rgba(232,234,237,0.58);
         }
         .form-control:focus {
             border-color: var(--primary);
             box-shadow: 0 0 0 3px rgba(82,175,238,0.18);
-            background: #20242b; outline: none;
+            background: #151923; outline: none;
+            color: #f5f7fb;
+            -webkit-text-fill-color: #f5f7fb;
         }
         .form-control.err { border-color: #ef4444; }
         .pass-eye {
@@ -166,8 +172,9 @@
         <div class="visual-glow visual-glow-2"></div>
         <div class="visual-content">
             <div class="visual-brand">
-                <img src="{{ asset('logo.png') }}" alt="Valeris Crest">
-                
+                <a href="{{ url('/') }}" aria-label="Go to homepage">
+                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest">
+                </a>
             </div>
             <div class="visual-mid">
                 <h2>Trade with confidence, anywhere in the world.</h2>

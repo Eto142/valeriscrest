@@ -100,14 +100,20 @@ body {
 .form-control, .form-select {
     width: 100%; padding: 12px 14px 12px 38px;
     border: 1.5px solid var(--input-border); border-radius: 10px;
-    font-size: 0.94rem; color: var(--text); background: var(--input-bg);
+    font-size: 0.94rem; color: #f5f7fb; background: #0f1319;
     outline: none; transition: border-color .2s, box-shadow .2s;
     appearance: none;
+    -webkit-text-fill-color: #f5f7fb;
+}
+.form-control::placeholder, .form-select::placeholder {
+    color: rgba(232,234,237,0.58);
 }
 .form-control:focus, .form-select:focus {
     border-color: var(--primary);
     box-shadow: 0 0 0 3px rgba(82,175,238,0.18);
-    background: #20242b;
+    background: #151923;
+    color: #f5f7fb;
+    -webkit-text-fill-color: #f5f7fb;
 }
 .pass-eye { position:absolute; right:13px; z-index:2; color:var(--muted); cursor:pointer; font-size:0.88rem; transition:color .2s; }
 .pass-eye:hover { color:var(--primary); }
@@ -157,8 +163,9 @@ body {
         <div class="visual-glow visual-glow-2"></div>
         <div class="visual-content">
             <div class="visual-brand">
-                <img src="{{ asset('logo.png') }}" alt="Valeris Crest">
-                
+                <a href="{{ url('/') }}" aria-label="Go to homepage">
+                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest">
+                </a>
             </div>
             <div class="visual-mid">
                 <h2>Start your trading journey today.</h2>
@@ -180,7 +187,11 @@ body {
     <!-- Form panel -->
     <div class="auth-form-side">
         <div class="form-wrap">
-            <div class="mobile-brand"><img src="{{ asset('logo.png') }}" alt="Valeris Crest"></div>
+            <div class="mobile-brand">
+                <a href="{{ url('/') }}" aria-label="Go to homepage">
+                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest">
+                </a>
+            </div>
 
             <h4 class="form-title">Create Your Account</h4>
             <p class="form-sub">Join 50,000+ traders on Valeris Crest</p>
