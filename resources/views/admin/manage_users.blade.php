@@ -93,7 +93,7 @@
                              <i class="fas fa-eye"></i>
                              <span class="d-none d-lg-inline"> View</span>
                              </a>
-                           <button type="button" 
+                           {{-- <button type="button" 
         class="btn btn-outline-success mail-btn"
         data-email="{{ $user->email }}"
         data-name="{{ $user->first_name }} {{ $user->last_name }}"
@@ -101,7 +101,7 @@
         data-bs-target="#mailModal">
     <i class="fas fa-envelope"></i>
     <span class="d-none d-lg-inline"> Mail</span>
-</button>
+</button> --}}
 
                              <form action="{{route('admin.delete', $user->id) }}" method="POST" class="d-inline">
                                             @csrf
