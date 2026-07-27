@@ -556,17 +556,14 @@
             </div>
         </div>
 
-        {{--
         <div class="card-body p-0">
 
-    <!-- Heading -->
+    {{-- User notifications section disabled
     <div class="p-3 border-bottom bg-light">
         <h5 class="mb-0 fw-bold">User Notifications</h5>
     </div>
 
     <div class="tab-content p-3" id="activityTabsContent">
-
-        <!-- Notifications Tab -->
         <div class="tab-pane fade show active" id="notifications" role="tabpanel">
             <div class="table-responsive">
                 <table class="table table-hover table-sm">
@@ -602,10 +599,8 @@
                 </table>
             </div>
         </div>
-
     </div>
-
-
+    --}}
 
     <div class="row gx-3">
 				<div class="col-sm-12 col-12">
