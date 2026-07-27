@@ -27,6 +27,52 @@
         <!-- App Css-->
         <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
 
+        <style>
+            .header-brand-shell {
+                position: relative;
+                min-height: 48px;
+            }
+
+            .navbar-brand-box {
+                display: flex;
+                align-items: center;
+            }
+
+            .navbar-brand-box .brand-logo {
+                object-fit: contain;
+                max-width: 100%;
+            }
+
+            @media (max-width: 991.98px) {
+                .header-brand-shell {
+                    flex: 1 1 auto;
+                    justify-content: center;
+                }
+
+                .navbar-brand-box {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 1;
+                }
+
+                .navbar-brand-box .logo-lg {
+                    justify-content: center;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .header-brand-shell {
+                    justify-content: flex-start;
+                }
+
+                .navbar-brand-box {
+                    position: static;
+                    transform: none;
+                }
+            }
+        </style>
+
     </head>
 
     <body data-topbar="dark">
@@ -39,24 +85,26 @@
             
             <header id="page-topbar">
                 <div class="navbar-header">
-                    <div class="d-flex">
+                    <div class="d-flex align-items-center header-brand-shell">
                         <!-- LOGO -->
-                        <div class="navbar-brand-box">
-                            <a href="{{route('user.home')}}" class="logo logo-dark">
+                        <div class="navbar-brand-box me-2 me-lg-3">
+                            <a href="{{route('user.home')}}" class="logo logo-dark d-flex align-items-center">
                                 <span class="logo-sm">
-                                    <img src="logo.png" alt="" height="30">
+                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="30" class="brand-logo">
                                 </span>
-                                <span class="logo-lg">
-                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">valeriscrest</span>
+                                <span class="logo-lg d-flex align-items-center">
+                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="24" class="brand-logo me-2">
+                                    <span class="logo-txt">valeriscrest</span>
                                 </span>
                             </a>
 
-                            <a href="{{route('user.home')}}" class="logo logo-light">
+                            <a href="{{route('user.home')}}" class="logo logo-light d-flex align-items-center">
                                 <span class="logo-sm">
-                                    <img src="logo.png" alt="" height="30">
+                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="30" class="brand-logo">
                                 </span>
-                                <span class="logo-lg">
-                                    <img src="logo.png" alt="" height="24"> <span class="logo-txt">valeriscrest</span>
+                                <span class="logo-lg d-flex align-items-center">
+                                    <img src="{{ asset('logo.png') }}" alt="Valeris Crest" height="24" class="brand-logo me-2">
+                                    <span class="logo-txt">valeriscrest</span>
                                 </span>
                             </a>
                         </div>
@@ -66,17 +114,17 @@
                         </button>
 
                         <!-- App Search-->
-                        <form class="app-search d-none d-lg-block">
+                        {{-- <form class="app-search d-none d-lg-block">
                             <div class="position-relative">
                                 <input type="search" class="form-control" placeholder="Search...">
                                 <button class="btn btn-primary" type="button"><i class="bx bx-search-alt align-middle"></i></button>
                             </div>
-                        </form>
+                        </form> --}}
                     </div>
 
                     <div class="d-flex">
 
-                        <div class="dropdown d-inline-block d-lg-none ms-2">
+                        {{-- <div class="dropdown d-inline-block d-lg-none ms-2">
                             <button type="button" class="btn header-item" id="page-header-search-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i data-feather="search" class="icon-lg"></i>
@@ -94,7 +142,7 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <div class="dropdown d-none d-sm-inline-block">
                             {{-- <button type="button" class="btn header-item"
@@ -191,11 +239,11 @@
 
                         
 
-                        <div class="dropdown d-inline-block">
+                        {{-- <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item right-bar-toggle me-2">
                                 <i data-feather="settings" class="icon-lg"></i>
                             </button>
-                        </div>
+                        </div> --}}
 
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
@@ -362,13 +410,12 @@
 
 
 
-                            
-                                            
-    
-                
-                           
-
-                          
+                            <li>
+                                <a href="{{ route('user.logout.perform') }}">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    <span data-key="t-calendar">Logout</span>
+                                </a>
+                            </li>
 
                         <div class="card sidebar-alert shadow-none text-center mx-4 mb-0 mt-5">
                             <div class="card-body">
