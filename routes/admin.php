@@ -18,6 +18,7 @@ use App\Http\Controllers\Admin\WalletController;
 use App\Http\Controllers\Admin\WithdrawalController;
 use App\Http\Controllers\TransactionController;
 use App\Models\Withdrawal;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
@@ -38,6 +39,14 @@ use Illuminate\Support\Facades\Route;
     // });
 
     Route::prefix('admin')->name('admin.')->middleware('web')->group(function () {
+
+    Route::get('/', function () {
+        if (Auth::guard('admin')->check()) {
+            return redirect()->route('admin.dashboard');
+        }
+
+        return redirect()->route('admin.login');
+    })->name('home');
     
     // Guest routes (NOT logged in as admin)
     Route::middleware('guest:admin')->group(function () {
