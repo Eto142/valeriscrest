@@ -40,6 +40,32 @@ class UserFinanceHelper
     }
 
     /**
+     * Fetch and cache crypto prices from CoinGecko for 5 minutes.
+     *
+     * @return array
+     */
+    public static function getCryptoPrices()
+    {
+        return Cache::remember('crypto_prices_usd', now()->addMinutes(5), function () {
+            try {
+                $client = new Client();
+                $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd');
+                $data = json_decode($response->getBody(), true);
+                return [
+                    'bitcoin' => $data['bitcoin']['usd'] ?? 60000,
+                    'ethereum' => $data['ethereum']['usd'] ?? 3000,
+                ];
+            } catch (\Exception $e) {
+                \Log::error('Failed to fetch crypto prices from CoinGecko: ' . $e->getMessage());
+                return [
+                    'bitcoin' => 60000,
+                    'ethereum' => 3000,
+                ];
+            }
+        });
+    }
+
+    /**
      * Retrieve user's complete financial summary.
      *
      * @param int|null $userId

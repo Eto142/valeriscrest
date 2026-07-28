@@ -33,24 +33,9 @@ class WithdrawalController extends Controller
     
  public function getUserWithdrawal(Request $request)
 {
-    $btcPrice = 0;
-    $ethPrice = 0;
-
-    try {
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price', [
-            'query' => [
-                'ids' => 'bitcoin,ethereum',
-                'vs_currencies' => 'usd',
-            ],
-        ]);
-
-        $prices = json_decode($response->getBody(), true);
-        $btcPrice = $prices['bitcoin']['usd'] ?? 0;
-        $ethPrice = $prices['ethereum']['usd'] ?? 0;
-    } catch (RequestException $e) {
-        Log::error('Failed to fetch cryptocurrency prices: ' . $e->getMessage());
-    }
+    $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+    $btcPrice = $prices['bitcoin'];
+    $ethPrice = $prices['ethereum'];
 
     // Retrieve user financial data
     $userId = Auth::id();
@@ -382,19 +367,9 @@ public function makeWithdrawal(Request $request)
     // ============================
     // 2. LIVE CRYPTO PRICE FETCH (BTC & ETH)
 
-    try {
-        $response = file_get_contents("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd");
-        $prices = json_decode($response, true);
-        $priceBTC = $prices['bitcoin']['usd'] ?? null;
-        $priceETH = $prices['ethereum']['usd'] ?? null;
-    } catch (\Exception $e) {
-        $priceBTC = null;
-        $priceETH = null;
-    }
-
-    // Fallback prices
-    if (!$priceBTC) $priceBTC = 60000;
-    if (!$priceETH) $priceETH = 3000;
+    $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+    $priceBTC = $prices['bitcoin'];
+    $priceETH = $prices['ethereum'];
 
     // ============================
     // 3. CREATE WITHDRAWAL

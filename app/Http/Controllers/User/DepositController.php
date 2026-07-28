@@ -90,27 +90,9 @@ class DepositController extends Controller
 
 public function getDeposit(Request $request)
 {
-    $btcPrice = 0;
-    $ethPrice = 0;
-    $client = new Client();
-
-    try {
-        // Fetch Bitcoin price from CoinGecko API
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $btcData = json_decode($response->getBody(), true);
-        $btcPrice = $btcData['bitcoin']['usd'] ?? 0;
-    } catch (\GuzzleHttp\Exception\RequestException $e) {
-        Log::error('Failed to fetch Bitcoin price: ' . $e->getMessage());
-    }
-
-    try {
-        // Fetch Ethereum price from CoinGecko API
-        $response2 = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
-        $ethData = json_decode($response2->getBody(), true);
-        $ethPrice = $ethData['ethereum']['usd'] ?? 0;
-    } catch (\GuzzleHttp\Exception\RequestException $e) {
-        Log::error('Failed to fetch Ethereum price: ' . $e->getMessage());
-    }
+    $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+    $btcPrice = $prices['bitcoin'];
+    $ethPrice = $prices['ethereum'];
 
     // Calculate user balance
     $userId = Auth::id();
@@ -147,28 +129,9 @@ public function getDeposit(Request $request)
 public function makeDeposit(Request $request)
 {
    
-$client = new Client();
-
-// Fetch Bitcoin (BTC) price in USD using CoinGecko API
-$responseBTC = $client->get('https://api.coingecko.com/api/v3/simple/price', [
-    'query' => [
-        'ids' => 'bitcoin',
-        'vs_currencies' => 'usd',
-    ],
-]);
-
-$dataBTC = json_decode($responseBTC->getBody(), true);
-$priceBTC = $dataBTC['bitcoin']['usd'];
-
-    // Fetch Ethereum (ETH) price in USD
-    $responseETH = $client->get('https://api.coingecko.com/api/v3/simple/price', [
-        'query' => [
-            'ids' => 'ethereum',
-            'vs_currencies' => 'usd',
-        ],
-    ]);
-    $dataETH = json_decode($responseETH->getBody(), true);
-    $priceETH = $dataETH['ethereum']['usd'];
+    $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+    $priceBTC = $prices['bitcoin'];
+    $priceETH = $prices['ethereum'];
 
     $transaction_id = rand(76503737, 12344994);
 
@@ -232,12 +195,8 @@ $priceBTC = $dataBTC['bitcoin']['usd'];
         $data['plan'] = Plan::where('user_id', Auth::user()->id)->sum('amount');
         $data['referral'] = Refferal::where('user_id', Auth::user()->id)->sum('amount');
         $data['balance'] = $data['profit'] + $data['deposit'] + $data['earning'] + $data['referral'] - $data['withdrawal'] - $data['plan'];
-        $client = new Client();
-$response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-$data = json_decode($response->getBody(), true);
-
-// Extract BTC price from CoinGecko API response
-$price = $data['bitcoin']['usd'];
+        $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+        $price = $prices['bitcoin'];
 
 $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
 $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -282,16 +241,9 @@ $data['btc_balance'] = $data['user_balance'] / $price;
 public function InvestmentHistory()
     {
 
-       // Fetch Bitcoin price from CoinGecko API
-    $price = 0;
-    try {
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'] ?? 0;
-    } catch (RequestException $e) {
-        \Log::error('Failed to fetch Bitcoin price: ' . $e->getMessage());
-    }
+       // Fetch Bitcoin price from Cache/CoinGecko
+       $prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+       $price = $prices['bitcoin'];
  // Retrieve user financial data
     $userId = Auth::id();
     $data = [

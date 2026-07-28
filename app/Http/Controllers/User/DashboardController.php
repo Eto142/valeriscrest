@@ -74,22 +74,11 @@ class DashboardController extends Controller
      public function Wallet()
     {
 
-       $client = new Client();
-
-// Fetch BTC & ETH prices from CoinGecko in one request
-$response = $client->get('https://api.coingecko.com/api/v3/simple/price', [
-    'query' => [
-        'ids' => 'bitcoin,ethereum',
-        'vs_currencies' => 'usd',
-    ],
-]);
-
-// Decode the JSON response
-$data = json_decode($response->getBody(), true);
-
-// Extract BTC & ETH prices
-$btc_price = $data['bitcoin']['usd'];
-$eth_price = $data['ethereum']['usd'];
+// Fetch BTC & ETH prices from Cache/CoinGecko
+$prices = \App\Helpers\UserFinanceHelper::getCryptoPrices();
+$btc_price = $prices['bitcoin'];
+$eth_price = $prices['ethereum'];
+$data = [];
 
 // Fetch user transaction data
 $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
