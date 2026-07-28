@@ -16,7 +16,7 @@
                     <tr>
                         <td align="center" style="padding-bottom:28px;">
                             <span style="font-size:26px; font-weight:800; letter-spacing:2px; font-family:'Trebuchet MS', Arial, sans-serif; color:#ffffff; text-transform:uppercase;">
-                                Swift<span style="font-weight:300; color:#93c5fd;">Meta</span><span style="color:#3a74ff;">Trd</span>
+                                valeriscrest<span style="font-weight:300; color:#93c5fd;"></span><span style="color:#3a74ff;"></span>
                             </span>
                         </td>
                     </tr>
