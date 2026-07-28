@@ -85,7 +85,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                <span class="text-primary fw-medium">Junior Trader Available to Copy</span>
+                                                <span class="text-primary fw-medium">Junior Trader Available </span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -136,7 +136,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                Trader: <span class="text-primary fw-medium">Pro AI Trader Available to Copy</span>
+                                                Trader: <span class="text-primary fw-medium">Pro Trader Available</span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -147,7 +147,7 @@
                                                 
                                                 <div class="mb-3">
                                                     <label for="silver-amount" class="form-label">
-                                                        <i class="mdi mdi-calculator me-1"></i>AI Investment Amount
+                                                        <i class="mdi mdi-calculator me-1"></i>Investment Amount
                                                     </label>
                                                     <input type="number" class="form-control ai-input" id="silver-amount" name="amount" 
                                                            min="10000" max="50000" placeholder="Enter Amount ($10,000 - $50,000)" required>
@@ -187,7 +187,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                Trader: <span class="text-primary fw-medium">Expert Trader Available to Copy</span>
+                                                Trader: <span class="text-primary fw-medium">Expert Trader Available</span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -238,7 +238,7 @@
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                Trader: <span class="text-primary fw-medium">Master Trader Available to Copy</span>
+                                                Trader: <span class="text-primary fw-medium">Master Trader Available </span>
                                             </div>
                                             
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
@@ -282,7 +282,7 @@
 <!-- END layout-wrapper -->
 
 <style>
-    /* AI Animations */
+    /* Animations */
     .ai-plan-card {
         transition: all 0.3s ease;
         border: 1px solid #e9ecef;
@@ -390,7 +390,7 @@
         to { opacity: 1; }
     }
 
-    /* AI Assistant */
+    /* Assistant */
     .ai-assistant {
         position: fixed;
         bottom: 30px;
@@ -489,7 +489,7 @@
 </style>
 
 <script>
-    // AI Assistant Toggle
+    // Assistant Toggle
     document.getElementById('aiAssistant').addEventListener('click', function() {
         const chat = document.getElementById('aiChat');
         chat.classList.toggle('active');
@@ -539,7 +539,7 @@
             });
         });
 
-        // AI Input focus effects
+        // Input focus effects
         const aiInputs = document.querySelectorAll('.ai-input');
         aiInputs.forEach(input => {
             input.addEventListener('focus', function() {
