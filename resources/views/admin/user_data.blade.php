@@ -59,9 +59,9 @@
                         
                         <!-- Contact Buttons -->
                         <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
-                            <a href="{{ route('admin.send.email') }}" class="btn btn-sm btn-outline-primary">
+                            <button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#sendEmailModal">
                                 <i class="bi bi-envelope me-1"></i> Email
-                            </a>
+                            </button>
 
                             
                             {{-- <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#updateTaxCodeModal">
@@ -957,6 +957,39 @@
 
     
     <!-- Bootstrap JS -->
+    <!-- Send Email Modal -->
+    <div class="modal fade" id="sendEmailModal" tabindex="-1" aria-labelledby="sendEmailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form action="{{ route('admin.send.email.post') }}" method="POST">
+                    @csrf
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="sendEmailModalLabel">Send Email</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="emailTo" class="form-label fw-bold">Recipient Email</label>
+                            <input type="email" class="form-control" id="emailTo" name="to" value="{{ $userProfile->email }}" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailSubject" class="form-label fw-bold">Subject</label>
+                            <input type="text" class="form-control" id="emailSubject" name="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailMessage" class="form-label fw-bold">Message</label>
+                            <textarea class="form-control" id="emailMessage" name="message" rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Send Email</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
