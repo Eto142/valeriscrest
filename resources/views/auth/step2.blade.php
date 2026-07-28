@@ -23,17 +23,20 @@
         *, *::before, *::after { box-sizing: border-box; }
         body {
             font-family: 'Inter', 'Segoe UI', sans-serif;
-            background: #0b0c0e;
+            background: #f4f6f9;
             min-height: 100vh;
             display: flex;
             align-items: center;
-            color: var(--text);
+            justify-content: center;
+            color: #111111;
             position: relative;
+            padding:24px 16px;
+            overflow-x:hidden;
         }
         body::before {
             content: ''; position: fixed; top: -120px; right: -120px;
             width: 500px; height: 500px;
-            background: radial-gradient(circle, rgba(82,175,238,0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(82,175,238,0.08) 0%, transparent 70%);
             border-radius: 50%; pointer-events: none; z-index: 0;
         }
         body::after {
@@ -45,11 +48,11 @@
         .container { position: relative; z-index: 1; }
         
         .details-card {
-            background: var(--panel);
+            background: #ffffff;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 4px 20px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(15,23,42,0.12), 0 4px 20px rgba(15,23,42,0.08);
             overflow: hidden;
-            border: 1px solid var(--border);
+            border: 1px solid rgba(15,23,42,0.08);
             animation: authSlide 0.55s cubic-bezier(.22,.68,0,1.2) both;
         }
         @keyframes authSlide {

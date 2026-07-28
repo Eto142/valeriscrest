@@ -256,7 +256,7 @@
                         <span class="step-badge">01</span>
                         <div class="how-it-work-icon ai-icon"><i class="fas fa-user-circle"></i></div>
                         <h3 class="how-it-work-title">Create Your Account</h3>
-                        <p class="text-muted-custom">Register and access your personal dashboard in minutes. Fund your account using over 20 global payment methods — no paperwork required.</p>
+                        <p class="text-muted-custom">Register and access your personal dashboard in minutes. Fund your account using over 20 global payment methods  no paperwork required.</p>
                     </div>
                 </div>
                 <div class="col-md-4" data-reveal data-reveal-delay="2">
@@ -272,7 +272,7 @@
                         <span class="step-badge">03</span>
                         <div class="how-it-work-icon ai-icon"><i class="fas fa-coins"></i></div>
                         <h3 class="how-it-work-title">Withdraw Your Returns</h3>
-                        <p class="text-muted-custom">Withdraw your earnings instantly to your bank account or crypto wallet — zero hidden fees and same-day payout processing guaranteed.</p>
+                        <p class="text-muted-custom">Withdraw your earnings instantly to your bank account or crypto wallet  zero hidden fees and same-day payout processing guaranteed.</p>
                     </div>
                 </div>
             </div>
@@ -288,10 +288,10 @@
                 <div class="col-lg-6" data-reveal>
                     <span class="section-label"><i class="fas fa-layer-group"></i> Platform Highlight</span>
                     <h2 class="section-title text-start mt-2">Professional Trading<br>Tools & Features</h2>
-                    <p class="mb-4" style="color:var(--text-muted);font-size:1rem;line-height:1.75;">The fastest trading experience built on modern technology — zero delays, pixel-perfect quotes, and a platform engineered for serious investors. Valeris Crest support is available 24/7.</p>
+                    <p class="mb-4" style="color:var(--text-muted);font-size:1rem;line-height:1.75;">The fastest trading experience built on modern technology  zero delays, pixel-perfect quotes, and a platform engineered for serious investors. Valeris Crest support is available 24/7.</p>
                     <ul class="features-list">
                         <li>4 chart types, 8 indicators &amp; precision trend-line tools</li>
-                        {{-- <li>Copy trading — follow top performers or publish your own strategy</li> --}}
+                        {{-- <li>Copy trading  follow top performers or publish your own strategy</li> --}}
                         <li>100+ assets: crypto, stocks, forex &amp; commodities</li>
                         <li>Advanced order types with built-in risk management controls</li>
                     </ul>
@@ -343,14 +343,14 @@
                     <div class="why-card">
                         <div class="why-icon"><i class="fas fa-wallet"></i></div>
                         <h4>Instant Withdrawals</h4>
-                        <p>Request a withdrawal anytime and receive your funds within hours — no hidden delays, no unnecessary holdbacks, no extra fees.</p>
+                        <p>Request a withdrawal anytime and receive your funds within hours  no hidden delays, no unnecessary holdbacks, no extra fees.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-reveal data-reveal-delay="5">
                     <div class="why-card">
                         <div class="why-icon"><i class="fas fa-headset"></i></div>
                         <h4>24/7 Dedicated Support</h4>
-                        <p>Our client-relations team is available around the clock via live chat, email, and phone — ready to assist with any query.</p>
+                        <p>Our client-relations team is available around the clock via live chat, email, and phone  ready to assist with any query.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-reveal data-reveal-delay="6">
@@ -592,7 +592,7 @@
                 <span class="section-label"><i class="fas fa-credit-card"></i> Payment Methods</span>
             </div>
             <h2 class="section-title" data-reveal data-reveal-delay="1">We Accept</h2>
-            <p class="section-subtitle" data-reveal data-reveal-delay="2">20+ deposit &amp; withdrawal methods — fast, secure, and always fee-free</p>
+            <p class="section-subtitle" data-reveal data-reveal-delay="2">20+ deposit &amp; withdrawal methods  fast, secure, and always fee-free</p>
 
             <div class="payment-grid" data-reveal data-reveal-delay="3">
                 <div class="payment-method"><i class="fab fa-bitcoin fa-2x text-warning"></i><p>Bitcoin</p></div>
@@ -639,7 +639,7 @@
                         <span>How does Valeris Crest manage my investments?</span>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
-                    <div class="faq-answer"><p>Our team of experienced portfolio managers monitors live market data across hundreds of assets simultaneously. They identify high-probability setups using advanced technical and fundamental analysis, then execute trades on your behalf with speed and precision — keeping your portfolio performing around the clock.</p></div>
+                    <div class="faq-answer"><p>Our team of experienced portfolio managers monitors live market data across hundreds of assets simultaneously. They identify high-probability setups using advanced technical and fundamental analysis, then execute trades on your behalf with speed and precision  keeping your portfolio performing around the clock.</p></div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
@@ -653,21 +653,21 @@
                         <span>How long does it take to withdraw profits?</span>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
-                    <div class="faq-answer"><p>Withdrawals are processed same-day for cryptocurrency requests and within 1–3 business days for bank transfers. There are zero hidden fees — you receive 100% of the amount you request.</p></div>
+                    <div class="faq-answer"><p>Withdrawals are processed same-day for cryptocurrency requests and within 1–3 business days for bank transfers. There are zero hidden fees  you receive 100% of the amount you request.</p></div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
                         <span>What is the minimum deposit to start trading?</span>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
-                    <div class="faq-answer"><p>You can begin with our Mini Plan starting at just $500. This gives you full access to the trading platform, live dashboard, and 24/7 support — making it an ideal starting point for new investors.</p></div>
+                    <div class="faq-answer"><p>You can begin with our Mini Plan starting at just $500. This gives you full access to the trading platform, live dashboard, and 24/7 support  making it an ideal starting point for new investors.</p></div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
                         <span>Which countries can use Valeris Crest?</span>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </button>
-                    <div class="faq-answer"><p>We currently serve clients in multiple countries. Registration and trading are fully digital — no physical presence is required. Simply create an account, verify your identity, fund your wallet, and our team takes it from there.</p></div>
+                    <div class="faq-answer"><p>We currently serve clients in multiple countries. Registration and trading are fully digital  no physical presence is required. Simply create an account, verify your identity, fund your wallet, and our team takes it from there.</p></div>
                 </div>
             </div>
         </div>

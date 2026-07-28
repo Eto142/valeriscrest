@@ -69,16 +69,16 @@
         /* ---- Right: form panel ---- */
         .auth-form-side {
             flex: 1 1 54%; display: flex; align-items: center; justify-content: center;
-            padding: 40px 24px; background: #0b0c0e; position: relative;
+            padding: 40px 24px; background: #f4f6f9; position: relative;
         }
         .form-wrap {
             width: 100%; max-width: 420px;
             animation: authSlide 0.55s cubic-bezier(.22,.68,0,1.2) both;
-            background: rgba(11, 12, 14, 0.92);
-            border: 1px solid rgba(255,255,255,0.06);
+            background: #ffffff;
+            border: 1px solid rgba(0,0,0,0.08);
             border-radius: 20px;
             padding: 28px;
-            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
         }
         @keyframes authSlide {
             from { opacity: 0; transform: translateY(24px); }
@@ -86,47 +86,47 @@
         }
         .mobile-brand { display: none; text-align: center; margin-bottom: 24px; }
         .mobile-brand img { height: 40px; }
-        .form-title { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; }
-        .form-sub { color: var(--muted); font-size: 0.92rem; margin: 0 0 18px; }
+        .form-title { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; color: #111111; }
+        .form-sub { color: #4f4f4f; font-size: 0.92rem; margin: 0 0 18px; }
         .trust-row { display:flex; flex-wrap:wrap; gap:7px; margin-bottom: 22px; }
         .trust-pill {
             display:inline-flex; align-items:center; gap:5px;
-            background:rgba(82,175,238,0.08); border:1px solid rgba(82,175,238,0.25);
+            background:rgba(82,175,238,0.12); border:1px solid rgba(82,175,238,0.3);
             border-radius:20px; padding:4px 11px;
-            font-size:0.77rem; font-weight:600; color:var(--primary-lt);
+            font-size:0.77rem; font-weight:600; color:var(--primary-dark);
         }
         .trust-pill i { font-size:0.7rem; }
         .auth-alert {
             padding: 11px 16px; margin-bottom: 18px;
             border-radius: 10px; font-size: 0.88rem; border-left: 4px solid;
         }
-        .auth-alert.s { background:rgba(34,197,94,0.1); color:#4ade80; border-color:#22c55e; }
-        .auth-alert.e { background:rgba(239,68,68,0.1); color:#f87171; border-color:#ef4444; }
+        .auth-alert.s { background:rgba(34,197,94,0.1); color:#166534; border-color:#22c55e; }
+        .auth-alert.e { background:rgba(239,68,68,0.1); color:#991b1b; border-color:#ef4444; }
         .auth-alert ul { margin:0; padding-left:16px; }
-        .f-label { display:block; font-size:0.83rem; font-weight:600; color:var(--text); margin-bottom:6px; }
+        .f-label { display:block; font-size:0.83rem; font-weight:600; color:#111111; margin-bottom:6px; }
         .f-wrap  { position:relative; display:flex; align-items:center; }
         .f-icon  { position:absolute; left:13px; z-index:2; color:var(--primary); font-size:0.88rem; pointer-events:none; }
         .form-control {
             width: 100%;
             padding: 12px 14px 12px 38px;
-            border: 1.5px solid var(--input-border);
+            border: 1.5px solid rgba(0,0,0,0.14);
             border-radius: 10px;
             font-size: 0.94rem;
-            color: #f5f7fb;
-            background: #0f1319;
+            color: #111111;
+            background: #ffffff;
             outline: none;
             transition: border-color .2s, box-shadow .2s;
-            -webkit-text-fill-color: #f5f7fb;
+            -webkit-text-fill-color: #111111;
         }
         .form-control::placeholder {
-            color: rgba(232,234,237,0.58);
+            color: rgba(0,0,0,0.38);
         }
         .form-control:focus {
             border-color: var(--primary);
             box-shadow: 0 0 0 3px rgba(82,175,238,0.18);
-            background: #151923; outline: none;
-            color: #f5f7fb;
-            -webkit-text-fill-color: #f5f7fb;
+            background: #ffffff; outline: none;
+            color: #111111;
+            -webkit-text-fill-color: #111111;
         }
         .form-control.err { border-color: #ef4444; }
         .pass-eye {

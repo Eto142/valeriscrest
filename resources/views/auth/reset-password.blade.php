@@ -18,26 +18,26 @@
         *, *::before, *::after { box-sizing:border-box; }
         body {
             font-family:'Inter','Segoe UI',sans-serif;
-            background:#0b0c0e;
+            background:#f4f6f9;
             min-height:100vh; display:flex; align-items:center; justify-content:center;
-            padding:24px 16px; position:relative; overflow-x:hidden; color:var(--text);
+            padding:24px 16px; position:relative; overflow-x:hidden; color:#111111;
         }
         body::before {
             content:''; position:fixed; top:-120px; right:-120px;
             width:500px; height:500px;
-            background:radial-gradient(circle,rgba(82,175,238,0.13) 0%,transparent 70%);
+            background:radial-gradient(circle,rgba(82,175,238,0.08) 0%,transparent 70%);
             border-radius:50%; pointer-events:none; z-index:0;
         }
         body::after {
             content:''; position:fixed; bottom:-100px; left:-100px;
             width:400px; height:400px;
-            background:radial-gradient(circle,rgba(245,134,52,0.1) 0%,transparent 70%);
+            background:radial-gradient(circle,rgba(245,134,52,0.08) 0%,transparent 70%);
             border-radius:50%; pointer-events:none; z-index:0;
         }
         .auth-card {
-            background:var(--panel); border-radius:20px; overflow:hidden;
-            box-shadow:0 20px 60px rgba(0,0,0,0.5),0 4px 20px rgba(0,0,0,0.3);
-            border:1px solid var(--border);
+            background:#ffffff; border-radius:20px; overflow:hidden;
+            box-shadow:0 20px 60px rgba(15,23,42,0.12),0 4px 20px rgba(15,23,42,0.08);
+            border:1px solid rgba(15,23,42,0.08);
             width:100%; max-width:440px;
             position:relative; z-index:1;
             animation:authSlide .55s cubic-bezier(.22,.68,0,1.2) both;
@@ -49,29 +49,29 @@
         .auth-card::before { content:''; display:block; height:4px; background:linear-gradient(90deg,var(--primary),var(--secondary)); }
         .auth-head {
             text-align:center; padding:2rem 2rem 1.5rem;
-            background:var(--panel-2);
-            border-bottom:1px solid var(--border);
+            background:#f7fafc;
+            border-bottom:1px solid rgba(15,23,42,0.08);
         }
         .auth-logo { height: 44px; width: auto; margin: 0 auto 1rem; display: block; }
-        .auth-head h2 { font-size:1.5rem; font-weight:800; color:var(--text); margin-bottom:4px; }
-        .auth-head p  { font-size:0.9rem; color:var(--muted); margin:0; }
+        .auth-head h2 { font-size:1.5rem; font-weight:800; color:#111111; margin-bottom:4px; }
+        .auth-head p  { font-size:0.9rem; color:#4f4f4f; margin:0; }
         .auth-alert {
             margin:1rem 2rem 0; padding:11px 16px;
             border-radius:10px; font-size:0.88rem; border-left:4px solid;
         }
-        .auth-alert.s { background:rgba(34,197,94,0.1); color:#4ade80; border-color:#22c55e; }
-        .auth-alert.e { background:rgba(239,68,68,0.1); color:#f87171; border-color:#ef4444; }
+        .auth-alert.s { background:rgba(34,197,94,0.1); color:#166534; border-color:#22c55e; }
+        .auth-alert.e { background:rgba(239,68,68,0.1); color:#991b1b; border-color:#ef4444; }
         .auth-body { padding:2rem; }
-        .f-label { display:block; font-size:0.83rem; font-weight:600; color:var(--text); margin-bottom:6px; }
+        .f-label { display:block; font-size:0.83rem; font-weight:600; color:#111111; margin-bottom:6px; }
         .f-wrap { position:relative; display:flex; align-items:center; }
         .f-icon { position:absolute; left:13px; z-index:2; color:var(--primary); font-size:0.88rem; pointer-events:none; }
         .f-input {
             width:100%; padding:12px 14px 12px 38px;
-            border:1.5px solid var(--input-border); border-radius:10px;
-            font-size:0.94rem; color:var(--text); background:var(--input-bg);
+            border:1.5px solid rgba(15,23,42,0.14); border-radius:10px;
+            font-size:0.94rem; color:#111111; background:#ffffff;
             outline:none; transition:border-color .2s,box-shadow .2s;
         }
-        .f-input:focus { border-color:var(--primary); box-shadow:0 0 0 3px rgba(82,175,238,.18); background:#20242b; }
+        .f-input:focus { border-color:var(--primary); box-shadow:0 0 0 3px rgba(82,175,238,.18); background:#ffffff; }
         .pass-eye { position:absolute; right:13px; z-index:2; color:var(--muted); cursor:pointer; font-size:0.88rem; transition:color .2s; }
         .pass-eye:hover { color:var(--primary); }
         .strength-bar {
