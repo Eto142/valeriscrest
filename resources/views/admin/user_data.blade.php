@@ -59,7 +59,7 @@
                         
                         <!-- Contact Buttons -->
                         <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
-                            <a href="mailto:{{ $userProfile->email }}" class="btn btn-sm btn-outline-primary">
+                            <a href="{{ route('admin.send.email') }}" class="btn btn-sm btn-outline-primary">
                                 <i class="bi bi-envelope me-1"></i> Email
                             </a>
 
