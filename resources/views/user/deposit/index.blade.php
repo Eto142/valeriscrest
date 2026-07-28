@@ -61,7 +61,7 @@
                                         </div>
                                         <div class="form-text text-muted">
                                             <i class="mdi mdi-information-outline me-1"></i>
-                                            Minimum deposit: {{Auth::user()->currency}}50
+                                            Minimum deposit: {{Auth::user()->currency}}200
                                         </div>
                                     </div>
                                 </div>
