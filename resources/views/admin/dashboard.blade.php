@@ -167,7 +167,7 @@
     </div>
 
     <div class="card-body p-0">
-        <div class="table-responsive">
+        <div class="table-responsive" style="max-height: 70vh; overflow-y: auto; overflow-x: auto;">
             <table class="table table-hover mb-0">
                 <thead class="table-light">
                     <tr>
@@ -219,7 +219,7 @@
                                    <i class="fas fa-eye"></i>
                                 </a>
 
-                                <a href="mailto:{{ $user->email }}"
+                                <a href="{{ route('admin.send.email') }}"
                                    class="btn btn-outline-success" title="Send Email">
                                    <i class="fas fa-envelope"></i>
                                 </a>
