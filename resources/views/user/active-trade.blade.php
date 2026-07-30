@@ -209,7 +209,7 @@
        TRADE STATUS BANNER
     ======================================== */
     .trade-status-banner {
-        background: linear-gradient(135deg, #1a1e2e 0%, #0d1117 50%, #161b22 100%);
+        background: linear-gradient(135deg, #1a1e2e 0%, #eeeff1 50%, #161b22 100%);
         border: 1px solid rgba(56, 189, 248, 0.15);
         border-radius: 12px;
         padding: 24px 28px;
@@ -278,7 +278,7 @@
        TRADING CHART CARD
     ======================================== */
     .trading-chart-card {
-        background: #0d1117;
+        background: #eeeff1;
         border: 1px solid rgba(56, 189, 248, 0.1);
         border-radius: 12px;
         overflow: hidden;
@@ -342,7 +342,7 @@
        P&L CARD
     ======================================== */
     .pnl-card {
-        background: linear-gradient(135deg, #0d1117 0%, #1a1e2e 100%);
+        background: linear-gradient(135deg, #eeeff1 0%, #1a1e2e 100%);
         border: 1px solid rgba(16, 185, 129, 0.15);
         border-radius: 12px;
         overflow: hidden;
@@ -396,7 +396,7 @@
        TRADE DETAILS CARD
     ======================================== */
     .trade-details-card {
-        background: #0d1117;
+        background: #eeeff1;
         border: 1px solid rgba(255,255,255,0.08);
         border-radius: 12px;
     }
@@ -446,7 +446,7 @@
        QUICK ACTIONS
     ======================================== */
     .quick-actions-card {
-        background: #0d1117;
+        background: #eeeff1;
         border: 1px solid rgba(255,255,255,0.08);
         border-radius: 12px;
     }
@@ -468,7 +468,7 @@
        MINI STAT CARDS
     ======================================== */
     .mini-stat-card {
-        background: #0d1117;
+        background: #eeeff1;
         border: 1px solid rgba(255,255,255,0.06);
         border-radius: 10px;
         transition: all 0.25s ease;
@@ -544,13 +544,13 @@
             "theme": "light",
             "style": "1",
             "locale": "en",
-            "toolbar_bg": "#0d1117",
+            "toolbar_bg": "#eeeff1",
             "enable_publishing": false,
             "hide_top_toolbar": false,
             "hide_legend": false,
             "save_image": false,
             "container_id": "tradingview-chart",
-            "backgroundColor": "#0d1117",
+            "backgroundColor": "#eeeff1",
             "gridColor": "rgba(255,255,255,0.03)",
             "hide_side_toolbar": true,
             "allow_symbol_change": true,
