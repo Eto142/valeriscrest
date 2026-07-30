@@ -73,6 +73,16 @@
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
+                        <!-- Custom Language Dropdown -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2 px-3 py-1.5" type="button" id="languageSelector" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px; font-size: 0.85rem; font-weight: 500; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); transition: all 0.3s ease;">
+                                <span class="current-lang-flag">🇺🇸</span>
+                                <span class="current-lang-name">English</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelector" style="background: rgba(11, 26, 41, 0.95); backdrop-filter: blur(10px); border-radius: 12px; min-width: 160px; max-height: 350px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;">
+                                <!-- Dynamically populated by translator engine -->
+                            </ul>
+                        </div>
                         <a href="{{ route('login') }}" class="top-login">Login</a>
                         <a href="{{ route('register') }}" class="top-signup">Signup</a>
                     </div>
@@ -80,4 +90,6 @@
             </div>
         </nav>
     </header>
+
+    @include('partials.translator')
 

@@ -226,6 +226,18 @@
 
     <!-- Form panel -->
     <div class="auth-form-side">
+        <!-- Floating Language Dropdown -->
+        <div class="lang-float-wrapper" style="position: absolute; top: 20px; right: 20px; z-index: 1000;">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle d-flex align-items-center gap-2 px-3 py-1.5" type="button" id="languageSelectorAuth" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px; font-size: 0.82rem; font-weight: 500; background: rgba(0, 0, 0, 0.05); border: 1.5px solid rgba(0,0,0,0.08); color: #333333; transition: all 0.3s ease;">
+                    <span class="current-lang-flag">🇺🇸</span>
+                    <span class="current-lang-name">English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end shadow border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelectorAuth" style="background: #1e293b; border-radius: 12px; min-width: 150px; max-height: 300px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;">
+                    <!-- Dynamically populated by translator engine -->
+                </ul>
+            </div>
+        </div>
         <div class="form-wrap">
             <div class="mobile-brand"><img src="{{ asset('logo.png') }}" alt="Valeris Crest"></div>
 
@@ -302,5 +314,7 @@
         else { pw.type = 'password'; ic.className = 'fas fa-eye'; }
     });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+@include('partials.translator')
 </body>
 </html>

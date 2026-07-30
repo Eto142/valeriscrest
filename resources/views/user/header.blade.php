@@ -165,36 +165,14 @@
                             </div>
                         </div> --}}
 
-                        <div class="dropdown d-none d-sm-inline-block">
-                            {{-- <button type="button" class="btn header-item"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                            </button> --}}
-                            <div class="dropdown-menu dropdown-menu-end">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
-                                </a>
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item d-flex align-items-center gap-2" id="languageSelectorUser"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border: none; background: transparent;">
+                                <span class="current-lang-flag">🇺🇸</span>
+                                <span class="current-lang-name d-none d-md-inline-block">English</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end shadow border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelectorUser" style="background: #1e293b; min-width: 160px; border-radius: 12px; max-height: 350px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;">
+                                <!-- Dynamically populated by translator engine -->
                             </div>
                         </div>
 
@@ -502,5 +480,5 @@
 
 
 
-
             
+@include('partials.translator')
