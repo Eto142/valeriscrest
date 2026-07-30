@@ -95,6 +95,7 @@ Route::prefix('user')
      Route::get('/crypto-buy', [DashboardController::class, 'CryptoBuy'])->name('crypto.buy'); // user.forex
     Route::get('/copy', [DashboardController::class, 'Copy'])->name('copy'); // user.forex
     Route::get('/buy-plan', [DashboardController::class, 'BuyPlan'])->name('buy.plan'); // user.forex
+    Route::get('/active-trade/{plan}', [DashboardController::class, 'activeTrade'])->name('active.trade');
     Route::get('/wallet', [DashboardController::class, 'Wallet'])->name('wallet'); // user.forex
      Route::get('/profile', [DashboardController::class, 'Profile'])->name('profile'); // user.forex
      Route::get('/accounthistory', [DashboardController::class, 'AccountHistory'])->name('accounthistory'); // user.forex

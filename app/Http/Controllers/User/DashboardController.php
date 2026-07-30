@@ -207,6 +207,20 @@ public function UserNotification()
     }
 
 
+     public function activeTrade($id){
+
+      // ✅ Fetch all balances + Bitcoin price via helper
+        $data = UserFinanceHelper::getUserFinancialData();
+
+        // Fetch the purchased plan belonging to the authenticated user
+        $data['plan'] = Plan::where('id', $id)
+            ->where('user_id', Auth::user()->id)
+            ->firstOrFail();
+
+        return view('user.active-trade', $data);
+    }
+
+
      public function Photo(){
 
       // ✅ Fetch all balances + Bitcoin price via helper

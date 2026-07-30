@@ -229,7 +229,7 @@ $data['btc_balance'] = $data['user_balance'] / $price;
         $transaction->status = 1;
         $transaction->save();
 
-        return back()->with('status', 'Plan Has Been Purchased Successfully');
+        return redirect()->route('user.active.trade', $buy->id);
     }
 
 
