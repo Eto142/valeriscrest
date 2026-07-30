@@ -271,7 +271,7 @@
     }
 
     .text-white-50 {
-        color: rgba(255,255,255,0.5) !important;
+        color: rgb(0, 0, 0) !important;
     }
 
     /* ========================================
@@ -325,7 +325,7 @@
         display: flex;
         align-items: center;
         font-size: 11px;
-        color: rgba(255,255,255,0.4);
+        color: rgb(0, 0, 0);
         letter-spacing: 0.5px;
     }
 
@@ -405,7 +405,7 @@
         background: rgba(255,255,255,0.03);
         border-bottom: 1px solid rgba(255,255,255,0.06);
         padding: 14px 18px;
-        color: rgba(255,255,255,0.8);
+        color: rgba(0, 0, 0, 0.85);
     }
 
     .trade-detail-list {
@@ -432,12 +432,12 @@
     }
 
     .detail-label {
-        color: rgba(255,255,255,0.45);
+        color: rgba(0,0,0,0.65);
         font-size: 13px;
     }
 
     .detail-value {
-        color: rgba(255,255,255,0.85);
+        color: rgba(0,0,0,0.65);
         font-size: 13px;
         font-weight: 500;
     }
