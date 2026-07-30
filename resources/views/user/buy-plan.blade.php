@@ -132,7 +132,7 @@
                                             </div>
                                             <div class="mb-2 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                ROI: <span class="text-primary fw-medium">18.0% (24 hours)</span>
+                                                ROI: <span class="text-primary fw-medium">18.0% (7 days)</span>
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
@@ -142,7 +142,7 @@
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
                                                 @csrf
                                                 <input type="hidden" name="plan_name" value="Silver">
-                                                <input type="hidden" name="plan_duration" value="24 hours">
+                                                <input type="hidden" name="plan_duration" value="7 days">
                                                 <input type="hidden" name="status" value="1">
                                                 
                                                 <div class="mb-3">
@@ -183,7 +183,7 @@
                                             </div>
                                             <div class="mb-2 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                ROI: <span class="text-primary fw-medium">25.0% (24 hours)</span>
+                                                ROI: <span class="text-primary fw-medium">25.0% (7 days)</span>
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
@@ -234,7 +234,7 @@
                                             </div>
                                             <div class="mb-2 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>
-                                                ROI: <span class="text-primary fw-medium">35.0% (24 hours)</span>
+                                                ROI: <span class="text-primary fw-medium">35.0% (7 days)</span>
                                             </div>
                                             <div class="mb-3 feature-item">
                                                 <i class="mdi mdi-arrow-right text-primary me-1"></i>

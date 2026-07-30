@@ -1,5 +1,35 @@
 
-                <footer class="footer">
+                <style>
+                    .footer-fixed {
+                        position: fixed !important;
+                        bottom: 0 !important;
+                        right: 0 !important;
+                        left: 250px !important;
+                        z-index: 999 !important;
+                        height: 60px !important;
+                        background-color: var(--bs-secondary-bg) !important;
+                        border-top: 1px solid var(--bs-border-color) !important;
+                    }
+                    @media (max-width: 991.98px) {
+                        .footer-fixed {
+                            left: 0 !important;
+                        }
+                    }
+                    body[data-sidebar-size=sm] .footer-fixed {
+                        left: 70px !important;
+                    }
+                    body[data-sidebar-size=md] .footer-fixed {
+                        left: 160px !important;
+                    }
+                    body[data-layout=horizontal] .footer-fixed {
+                        left: 0 !important;
+                    }
+                    /* Ensure space for the footer so content is not obscured */
+                    .page-content {
+                        padding-bottom: 80px !important;
+                    }
+                </style>
+                <footer class="footer footer-fixed">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
