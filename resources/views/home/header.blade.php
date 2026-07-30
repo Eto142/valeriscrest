@@ -37,9 +37,21 @@
             <div class="container">
                 <a class="navbar-brand" href="/">
                    <!-- You can replace this with your own logo -->
-<img src="{{ asset('logo.png') }}" alt="G Logo" style="width:150px; height:40px; object-fit:contain;">
-
+                    <img src="{{ asset('logo.png') }}" alt="G Logo" style="width:150px; height:40px; object-fit:contain;">
                 </a>
+
+                <!-- Mobile Language Selector (Outside Collapse) -->
+                <div class="d-flex align-items-center ms-auto me-2 d-lg-none">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-1 px-2.5 py-1" type="button" id="languageSelectorMobile" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px; font-size: 0.78rem; font-weight: 500; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); transition: all 0.3s ease;">
+                            <span class="current-lang-flag">🇺🇸</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelectorMobile" style="background: rgba(11, 26, 41, 0.95); backdrop-filter: blur(10px); border-radius: 12px; min-width: 160px; max-height: 350px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;">
+                            <!-- Dynamically populated -->
+                        </ul>
+                    </div>
+                </div>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -73,13 +85,13 @@
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <!-- Custom Language Dropdown -->
-                        <div class="dropdown me-3">
-                            <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2 px-3 py-1.5" type="button" id="languageSelector" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px; font-size: 0.85rem; font-weight: 500; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); transition: all 0.3s ease;">
+                        <!-- Desktop Language Dropdown (Inside Collapse) -->
+                        <div class="dropdown me-3 d-none d-lg-block">
+                            <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center gap-2 px-3 py-1.5" type="button" id="languageSelectorDesktop" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px; font-size: 0.85rem; font-weight: 500; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); transition: all 0.3s ease;">
                                 <span class="current-lang-flag">🇺🇸</span>
                                 <span class="current-lang-name">English</span>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelector" style="background: rgba(11, 26, 41, 0.95); backdrop-filter: blur(10px); border-radius: 12px; min-width: 160px; max-height: 350px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;">
+                            <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 py-2 lang-dropdown-menu" aria-labelledby="languageSelectorDesktop" style="background: rgba(11, 26, 41, 0.95); backdrop-filter: blur(10px); border-radius: 12px; min-width: 160px; max-height: 350px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;">
                                 <!-- Dynamically populated by translator engine -->
                             </ul>
                         </div>
