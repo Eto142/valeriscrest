@@ -175,42 +175,7 @@
 
             <!-- Market Overview Row -->
             <div class="row mt-2">
-                <div class="col-xl-3 col-md-6">
-                    <div class="card mini-stat-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="mini-stat-icon bg-soft-success me-3">
-                                    <i class="mdi mdi-bitcoin text-success"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-1 text-muted small">BTC/USD</p>
-                                    <h6 class="mb-0" id="btcPrice">Loading...</h6>
-                                </div>
-                                <div class="ms-auto">
-                                    <span class="badge bg-soft-success text-success" id="btcChange">--</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="card mini-stat-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="mini-stat-icon bg-soft-primary me-3">
-                                    <i class="mdi mdi-ethereum text-primary"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-1 text-muted small">ETH/USD</p>
-                                    <h6 class="mb-0" id="ethPrice">Loading...</h6>
-                                </div>
-                                <div class="ms-auto">
-                                    <span class="badge bg-soft-primary text-primary" id="ethChange">--</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
                 <div class="col-xl-3 col-md-6">
                     <div class="card mini-stat-card">
                         <div class="card-body">
@@ -226,21 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="card mini-stat-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="mini-stat-icon bg-soft-info me-3">
-                                    <i class="mdi mdi-clock-outline text-info"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-1 text-muted small">Time Elapsed</p>
-                                    <h6 class="mb-0" id="timeElapsed">00:00:00</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
 
         </div> <!-- container-fluid -->
@@ -590,7 +541,7 @@
             "symbol": symbol || "BINANCE:BTCUSDT",
             "interval": "5",
             "timezone": "Etc/UTC",
-            "theme": "dark",
+            "theme": "light",
             "style": "1",
             "locale": "en",
             "toolbar_bg": "#0d1117",
