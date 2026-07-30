@@ -91,7 +91,7 @@
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
                                                 @csrf
                                                 <input type="hidden" name="plan_name" value="Basic">
-                                                <input type="hidden" name="plan_duration" value="2 Days">
+                                                <input type="hidden" name="plan_duration" value="7 Days">
                                                 <input type="hidden" name="status" value="1">
                                                 
                                                 <div class="mb-3">
@@ -193,7 +193,7 @@
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
                                                 @csrf
                                                 <input type="hidden" name="plan_name" value="Premium">
-                                                <input type="hidden" name="plan_duration" value="24 hours">
+                                                <input type="hidden" name="plan_duration" value="7 days">
                                                 <input type="hidden" name="status" value="1">
                                                 
                                                 <div class="mb-3">
@@ -244,7 +244,7 @@
                                             <form action="{{route('user.buy.plan')}}" method="post" class="ai-form">
                                                 @csrf
                                                 <input type="hidden" name="plan_name" value="VIP">
-                                                <input type="hidden" name="plan_duration" value="24 hours">
+                                                <input type="hidden" name="plan_duration" value="7 days">
                                                 <input type="hidden" name="status" value="1">
                                                 
                                                 <div class="mb-3">
